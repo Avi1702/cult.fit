@@ -7,7 +7,10 @@ export const getLabTest=(payload)=>{
     }
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 9f2b111 (.)
 export const loadingLabTest=()=>{
     return {
         type:LOADING_LAB_TEST,

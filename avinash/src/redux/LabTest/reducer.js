@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import { ERROR_LAB_TEST, GET_LAB_TEST,LOADING_LAB_TEST } from "./actionType";
+=======
+import { ERROR_LAB_TEST, GET_LAB_TEST, LOADING_LAB_TEST } from "./actionType";
+>>>>>>> 9f2b111 (.)
 
 const init = {
   loading: false,
@@ -14,7 +18,11 @@ export const reducer = (state = init, { type, payload }) => {
         loading: false,
         error: false,
         LabTest: payload,
+<<<<<<< HEAD
       }; 
+=======
+      };
+>>>>>>> 9f2b111 (.)
     case LOADING_LAB_TEST:
       return {
         ...state,
