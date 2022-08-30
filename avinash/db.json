@@ -437,150 +437,283 @@
 =======
   "labTest":[
     {
-      "title":"Full Body Checkup",
-      "image":"https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/bundle/FitCheck_Magazine-02.png",
-      "price":1990,
-      "offerPrice":890
+      "title": "Full Body Checkup",
+      "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/bundle/FitCheck_Magazine-02.png",
+      "price": 1990,
+      "coverImage": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_500:300,c_fit/dpr_2/image/carefit/bundle/FitCheckHero012020.png",
+      "Details": "This test will help you understand the status of your key health indicators. It helps in early detection of common chronic & lifestyle health conditions related to thyroid, diabetes, liver, kidney, heart and blood.",
+      "report": "36 Hrs",
+      "offerPrice": 890
     },
     {
-      "title":"Vitamin Profile",
-      "image":"https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/bundle/mp/diag_pack_Vitamin_Profile_clp.jpg",
-      "price":1990,
-      "offerPrice":790
+      "title": "Vitamin Screening (VitB12,VitD)",
+      "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/bundle/mp/diag_pack_Vitamin_Profile_clp.jpg",
+      "price": 1990,
+      "coverImage": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_500:300,c_fit/dpr_2/image/carefit/bundle/mp/diag_pack_Vitamin_Profile_hero.jpg",
+      "Details": "This pack checks for Vitamin B12 and vitamin D levels in your body. It is recommended for people showing symptoms of Vitamin B12 deficiency include low energy levels, muscle weakness or mouth ulcers, bone pain",
+      "report": "36 Hrs",
+      "offerPrice": 790,
+      "questions": [
+        {
+          "What is a vitamin test?": "Vitamins are considered to be essential nutrients since they perform hundreds of functions that help in keeping us healthy and preventing several diseases. Rightly known as ‘protective nutrients’, they help in the growth and development of the body, keep our organs healthy, strengthen the bones, enhance the immune system, lower heart diseases, and so much more. However, the human body can only produce vitamins D and K. For the others, we need to rely on food and supplements. If our diet is not balanced with the different kinds of vitamins, we tend to get deficient in these important nutrients. This is where getting a vitamin test comes in. Two of the most important vitamin deficiency tests are the vitamin D test and vitamin B12 test. These tests are designed to screen and measure the levels of these specific vitamins and suggest corrective action and treatment plans. Out of these, while a vitamin D test is a blood test, a vitamin B12 test can be done by taking blood and urine samples both. Since vitamins are extremely critical for healthy living, Vitamin deficiency tests are usually a part of an annual checkup. They may also be ordered by your doctor if they see any specific medical conditions or risk factors that point to the deficiency of either of these vitamins. With the advancements in technology and the advent of unique telemedicine platforms, not only are the tests available in-home, but the vitamin D test cost and vitamin B12 test cost have also gone down significantly."
+        },
+        {
+          "Which tests are included in a vitamin test?": "A vitamin test usually involves the following tests: Vitamin B12 test: A vit B12 test shows the levels of vitamin B12 in your body and if you are deficient in this vitamin. Vitamin D test: A vit D3 test indicates the levels of vitamin D in your body. Several add-on tests are recommended and available in addition to the vitamin D test and vitamin B12 test: Calcium test: By screening the levels of calcium in your body, this test assesses a range of conditions that are related to the heart, nerves, muscles, kidneys, teeth, thyroid, and bones. Thyroid screening (T3, T4, TSH): This test screens for the levels of the T3, T4, and TSH hormones that are responsible for the development of your body and its metabolic rate. Complete haemogram: This test, including CBC + ESR, measures the levels of your Red Blood Cells (RBCs), White Blood Cells (WBCs), and the platelets that are essential for carrying oxygen, fighting off infections, and blood clotting. This test also includes the peripheral smear examination that helps in ruling out different types of anaemias, haematological malignancies, and other chronic diseases. Iron screening test: This test measures the levels of Ferritin, Iron, TIBC (Total Iron Binding Capacity), and PTS (Blood Proficiency Testing Scheme) in your blood. These are essential for maintaining healthy oxygen levels in the body. Testosterone Total: This test measures the levels of this hormone in both men and women to check for issues like PCOS, infertility, etc. Lipid profile test: This test is done to check the levels of cholesterol and triglycerides and the lipids that help in the production of hormones and vitamin D in the body. Electrolyte profile test: This test evaluates the levels of sodium, potassium, and chloride that help in stabilising the pH levels of the body. Blood Grouping test: Also known as the ABO Blood Group System, this test is done to check the levels of antibodies in your blood and other inherited antigenic substances on the surface of the RBCs. Vitamin B9/ Folic Acid test: This test is done to evaluate the levels of this vitamin in your body and to monitor the effectiveness of the folic deficiency treatment that you might be getting."
+        },
+        {
+          "Why do I need a vitamin test?": "There are several reasons why you need a regular vitamin test done. These include: Unknowingly, you may be deficient in some vitamins due to factors like age, imbalanced dietary habits, etc. This test helps in measuring the levels of vitamins D and B12 and diagnosing medical conditions that you might be experiencing due to this. Vitamin D3 test and vit B12 test help in pointing out health risks that you might be susceptible to due to these deficiencies. If you are already undergoing treatment for vitamin deficiency, these tests help in monitoring the efficacy of the treatment and if corrective action is required. An early vitamin test helps in the timely diagnosis of health problems. This helps in avoiding the ever-increasing medical costs. Vit D3 test and other tests help you in living stress-free and productively since you are more in control of your health situation and can manage the painful symptoms effectively. A vitamin D blood test and the other add-on tests help in diagnosing other conditions like anaemia, high cholesterol, types of cancers, low pH levels, etc."
+        },
+        {
+          "When do I need to get a vitamin test?": "It is recommended to get a vit D test done annually and when: You are suffering from osteoporosis. Have had gastric bypass surgery in the past. Are obese. Do not get enough sunlight. Experience frequent falls and fractures. You experience constant fatigue, bone pain, weakness in the muscles, etc. You experience depression. You experience frequent infections and fall sick often. Your wounds don’t heal in time. You experience severe hair loss. A vitamin B12 test is recommended annually and when you experience: Yellow pallor Ulcers in the mouth. Sore and red tongue i.e. glossitis. Fatigue. Behavioural changes like irritability, depression, a decline in your mental abilities, lack of judgement. Lack of balance and mobility. Tingling sensation in the feet and hands. You experience dizziness and shortness of breath. You have blurred or disturbed vision."
+        },
+        {
+          "How do I prepare for a vitamin test?": "Since both vitamin D3 test and B12 test are simple blood tests, though B12 test can be done through a urine sample also, so you don’t need much preparation whether you are taking the test in a clinic or hospital or taking a diagnostic test at home. However, you should keep in mind these points: If you are taking the vitamin D3 test at home, you need to prepare a comfortable corner for the phlebotomist to set her/his equipment and take your blood samples. Wear comfortable clothing for the test. For a vitamin B12 blood test, you may require to fast for a few hours before the test. For a vitamin B12 urine test, you may be asked for 24-hour urine samples. You should carry your prescriptions, medical history, and reports to the lab or clinic where your vitamin test is taking place. Check the vitamin D test cost and vitamin B12 test cost before you book the tests."
+        },
+        {
+          "How does vitamin testing work at home?": "With the advancements in technology, you do not always have to travel to a lab or hospital for a vitamin test. You can simply search for a vitamin test near me option and get it done in the comfort of your home. This is how it works: Check the vitamin D test cost and vitamin B12 test cost. For getting a vitamin B12 or vitamin D blood test at home, you need to buy the relevant test pack. A WHO and DLMT certified phlebotomist will collect the sample from your home. Your tests will be analysed by the country’s top doctors. After the completion of processing of your vit D3 test and vit B12 test, your report will be emailed to you within 24 hours."
+        },
+        {
+          "Are there any risks/side effects of vitamin tests?": "Since both the vitamin tests are simple blood and/or urine tests, there are no risks associated with them. However: In the case of a blood test, some people may experience minor bleeding or bruising. Though rare, some people might experience light-headedness or fatigue after the test. Travelling to a crowded lab or hospital for the test may increase the risk of infections."
+        },
+        {
+          "What does my result mean?": "This is how vitamin test results are interpreted: S.no Vitamin Healthy range 1. Vitamin B12 190-950 (pg/mL) 2. Vitamin D 20-50 ng/mL"
+        }
+      ]
     },
     {
-      "title":"Thyroid Screening",
-      "image":"https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/bundle/mp/diag_pack_Thyroid_Screening_clp.jpg",
-      "price":590,
-      "offerPrice":390
+      "title": "Thyroid Screening",
+      "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/bundle/mp/diag_pack_Thyroid_Screening_clp.jpg",
+      "price": 590,
+      "offerPrice": 390,
+      "coverImage": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_500:300,c_fit/dpr_2/image/carefit/bundle/mp/diag_pack_Thyroid_Screening_hero.jpg",
+      "Details": "Thyroid secretes hormones which influence the metabolic rate, protein synthesis and development of your body. This test checks the amount of the following critical hormones: T3, T4, TSH.",
+      "report": "36 Hrs",
+      "questions": [
+        {
+          "What is a thyroid test?": "A thyroid test is used to assess the functioning of the thyroid gland by testing your blood for the levels of TSH (thyroid stimulating hormone). The major hormone secreted by the thyroid gland, which is a butterfly-shaped gland located at the back of your neck is T4 (Thyroxine), which is converted to T3 (Triiodothyronine) by the removal of an iodine atom. The production of the T4 hormone depends on the pituitary gland that is located at the base of the brain and the hormone that it secretes i.e. the TSH (Thyroid stimulating hormone). The amount of TSH that the pituitary gland sends in the bloodstream is dependent on the amount of T4 that it assesses. If it sees low levels of T4, then it produces more TSH and vice versa. This explains the converse TSH level findings in a thyroid test. When the TSH levels are found to be high in the body, the thyroid test suggests that the thyroid gland is underactive and not producing enough thyroid hormone (hypothyroidism). When the TSH levels are lower than normal, the thyroid gland is suggested to be overactive and produces excessive thyroid hormone (hyperthyroidism). A thyroid test, while telling you if your TSH levels are high or low, doesn't elucidate the reasons behind it. In case of abnormal thyroid test results, your doctor will advise on additional diagnostic tests like the T3 and T4 tests. This test can be either taken at a lab, clinic, or hospital. With the advent of technology, thyroid tests at home are also a possibility. This has also brought down the thyroid test cost significantly."
+        },
+        {
+          "Which tests are included in a thyroid test?": "A thyroid test includes three main tests: TSH: This test is done to screen thyroid disorders and to diagnose hyperthyroidism or hypothyroidism. Thyroxine Total (T4 test): The T4 test is done to help diagnose the disorders of the thyroid and measures the levels of T4 hormone in the body. Triiodothyronine Total (T3 test): This test is done to diagnose hyperthyroidism and to determine its severity. There are several add-on tests that you can opt for when choosing a thyroid test near me: FT3 (Triiodothyronine Free) FT4 (Thyroxine Free) Complete haemogram (CBC+ ESR) Liver Function Test (LFT) Lipid Profile Diabetes screening (FBS, HBA1C) Urine Routine Examination Anti TP) (Anti Thyroperoxidase Antibody) Anti TG (Anti Thyroglobulin Antibody) Kidney Function Test (KFT) Vitamin B9 (Folic Acid) CRP Quantitative (C-Reactive Protein)"
+        },
+        {
+          "Why do I need a thyroid test?": "There are several advantages of getting your thyroid tested at regular intervals. These include: A thyroid test determines the levels of thyroid hormone in your blood and helps in the screening and diagnosis of hyperthyroidism or hypothyroidism. This helps you in seeking timely treatment. Additional tests like T3 and T4 tests help in diagnosing the reasons behind the disorder. These may include diseases like Graves disease, Hashimoto disease, or thyroid nodules cancer. If you are already undergoing treatment for thyroid, this test helps in checking the efficacy of the treatment or management plan. During the last few years, the cost of healthcare has spiralled upwards. An early thyroid test helps you in avoiding expensive medical services and treatments. It helps in letting you live stress-free since you can manage your symptoms and related health conditions. A thyroid test not only helps in diagnosing thyroid but other disorders also that are related to thyroid. These may include diabetes, hypertension, high cholesterol, etc."
+        },
+        {
+          "When do I need to get a thyroid test?": "You need to get your thyroid checked if you experience any of these symptoms and undergo either a T4 test or the other thyroid tests. Symptoms that are attributed to hyperthyroidism include: Unexplained weight loss. You experience rapid and irregular heartbeat. You feel overheated and sweat excessively. You feel hungry even after having a meal. This is accompanied by abnormally frequent bowel movements. Your hands shake and tremble especially when you try to hold something. Your skin looks dull and yellow. Your hair and nails become brittle and break faster. You are not able to sleep properly or suddenly start experiencing light sleep. You experience fatigue and muscle weakness without exerting yourself. Women may have light periods or miss them completely. You may experience these symptoms due to hypothyroidism: You experience memory problems. You gain weight without trying. Feelings of lethargy or dullness. You feel excessively cold and shiver even when the temperatures are high. You experience gastrointestinal problems like constipation and bloating for long periods. Your skin and hair are unusually dry. Women may experience frequent or heavy periods. Your heartbeat dips and slows down frequently. The thyroid may even be asymptomatic i.e. a person might have thyroid but might not experience or display any outward symptoms. Sometimes they or their doctor may find a lump on the neck during a regular unrelated physical examination. While a preventive thyroid test is done annually, if you are already diagnosed with thyroid and undergoing its treatment or management plan, you may need to get your thyroid tested every 6-8 weeks. You can either get this done at a lab or a clinic or book a thyroid test at home. Opting for a thyroid test near me in the convenience of your home is helpful if you need to get tested at regular intervals."
+        },
+        {
+          "How do I prepare for a thyroid test?": "If you are taking the in-home option of a thyroid test near me, you don’t need to prepare much for this simple test. However, you need to keep these points in mind: Since TSH levels may fluctuate during the day, you should schedule it in the morning. If you are getting the thyroid test at home, prepare a corner in the house for the phlebologist to take your blood sample. Factors like stress, menstrual cycle in women, sleep deprivation, dieting, etc. may have an impact on the thyroid test results. The best way to avoid that is to have your thyroid levels tested under the same conditions each time. This is easy to do when you are taking a thyroid test at home. Certain medications, multivitamins, and supplements like biotin for the hair and nails may interfere with your thyroid test results. You should inform your doctor about any of these that you are taking. If you are already being treated for thyroid, its hormone medication may also affect the results of the test. You should avoid taking your dose before the test. If you are suffering from any acute illness and are hospitalised, it is advised that you first get discharged and then take a TSH test at home. If you are pregnant or suffer from conditions like liver disease, systemic illness, etc., you must inform your doctor before taking the test. If you are consulting an endocrinologist online and plan to take a thyroid test at home, you must share your medical history, medical reports, and prescriptions with the doctor."
+        },
+        {
+          "How does thyroid test at home work?": "With the advancements in technology and unique telemedicine platforms, it is very easy now to get a thyroid test at home near me. This is how T3, T4, TSH tests at home work: For getting T3, T4, TSH tests at home, you need to buy the test pack after checking the thyroid test cost. Depending on the advice of your doctor, you can opt for either or all of the T3, T4, TSH tests. A WHO and DMLT certified phlebotomist will collect your samples from your home. Credible labs under the supervision of the country’s top endocrinologists will process your samples. After the completion of the processing of your test results, you will receive your report by email within 24 hours."
+        },
+        {
+          "Are there any risks/side effects of the thyroid test?": "With the advancements in technology and unique telemedicine platforms, it is very easy now to get a thyroid test at home near me. This is how T3, T4, TSH tests at home work: For getting T3, T4, TSH tests at home, you need to buy the test pack after checking the thyroid test cost. Depending on the advice of your doctor, you can opt for either or all of the T3, T4, TSH tests. A WHO and DMLT certified phlebotomist will collect your samples from your home. Credible labs under the supervision of the country’s top endocrinologists will process your samples. After the completion of the processing of your test results, you will receive your report by email within 24 hours."
+        },
+        {
+          "resultWhat does my result mean?": "This is how the thyroid test and the levels of TSH are interpreted: S.no Range Interpretation 1. 4.7-10 mU/L Subclinical hypothyroidism i.e. without observable symptoms 2. Higher than 10 mU/L Symptomatic hypothyroidism 3. 0.1-0.5 mU/L Subclinical hyperthyroidism i.e. without observable symptoms 4 Less than 0.1 mU/L Overt hyperthyroidism Interpreting T3 and T4 hormones S.no TSH T3 T4 Interpretation 1. Normal Normal Normally functioning thyroid gland 2. Low High Hyperthyroidism 3. High Low Primary hypothyroidism 4 Low Low Secondary hypothyroidism due to a disease of the pituitary gland or hypothalamus of the brain 5. High Low Hypothyroidism 6. Low High Hyperthyroidism"
+        }
+      ]
     },
     {
-      "title":"Fitness Essentials - Men",
-      "image":"https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/diagnostics/screening-packs/WorkoutWellness_men_magazine_web2.png",
-      "price":2990,
-      "offerPrice":1790
+      "title": "Fitness Essentials - Men",
+      "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/diagnostics/screening-packs/WorkoutWellness_men_magazine_web2.png",
+      "price": 2990,
+      "offerPrice": 1790,
+      "coverImage": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_500:300,c_fit/dpr_2/image/carefit/diagnostics/screening-packs/Workout_Wellness_men_hero.png",
+      "Details": "Understand your fitness from the inside out. This pack will help you understand your vitals, hormones and vitamin levels, which will help you understand how to plan your workout journey accordingly.",
+      "report": "72 Hrs",
+      "questions": [
+        {
+          "What is a fitness essential test for men?": "With the times that we live in, there are a plethora of reasons that affect our health and fitness. Besides our lifestyle and diet, things that we have no control over also affect our health. These include our age, family history, genetics, etc. We may be suffering from disorders, the symptoms of which may not be showing up yet. Therefore, to determine our fitness medical tests are advised annually to screen you for diseases and conditions. This could mean saving yourself a lot of trouble in the case these are left undiagnosed or untreated."
+        },
+        {
+          "Which tests are included in a fitness essential test?": "A fitness test evaluates your hormone levels, vitals, and vitamins in your body to check for any underlying conditions. The main fitness tests for men include: Complete haemogram (CBC + ESR): This test does a count of your red blood cells, white blood cells, and platelets. This also includes a peripheral smear examination and ESR. Glucose Fasting Blood: Measurement of blood glucose levels to screen for pre-diabetes or diabetes. Kidney Function Test: This measures BUN (Blood Urea Nitrogen), BUN to Creatinine ratio, Calcium, chloride, creatinine, phosphorus serum, sodium, uric acid, and urea. Lipid profile: This screen screens for your predisposition to heart diseases and includes checking the levels of HDL cholesterol, LDL cholesterol, LDL/HDL ratio, Non-HDL cholesterol, TC/HDL cholesterol ratio, triglycerides, and VLDL cholesterol. Liver Function Test: This includes tests like Alanine Aminotransferase, Albumin, Albumin/ Globulin Ratio, Alkaline Phosphatase, Aspartate Aminotransferase, Bilirubin Direct, Bilirubin Indirect, Bilirubin Total, Gamma Glutamyl Transferase, Globulin, and Protein Total tests to measure your enzyme levels. Testosterone Total: To check for pubertal or fertility issues. Thyroid screening (T3, T4, TSH): This includes Thyroxine Total and Triiodothyronine Total tests. Total IgE: An antibody test that checks for predisposition to asthma and allergies. Urine routine examination: This checks for bacteria, casts, transparency, colour, crystals, Epithelial cells, sugar, pus cells, nitrites, pH, RBCs, specific gravity, urobilinogen, and albumin. Vitamin B12: For the vitamin B12 levels in your body. Vitamin D total: For the vitamin D levels in your body. Iron studies: This includes Percentage Transferrin Saturation and Total Iron Binding Capacity. Several add-on tests are available and advised in addition to men’s fitness tests: Vitamin B9 Blood grouping test to classify your blood into Blood group ABO or RH typing. Insulin fasting to check for predisposition to diabetes and metabolic syndromes. CRP quantitative to check for the level of blood C-reactive protein. Triiodothyronine Free Thyroxine Free"
+        },
+        {
+          "Why do I need to get a fitness essential test?": "There are reasons why fitness essential tests are recommended annually like: These diagnostic tests give out important information about the state of your health and if you are suffering from any conditions or disorders that need to be treated. Medical fitness examination helps in understanding if you are predisposed to conditions like diabetes, thyroid, anaemia, allergies, etc., and need a preventive recourse. If you are undergoing treatment for any deficiency or diseases, your fitness test will help in assessing the efficacy of the treatment and if corrective action is needed. Since you are aware of your health and the possible treatments through annual fitness tests, you can live a stress-free and happy life."
+        },
+        {
+          "When do I need to get a fitness essential test?": "It is recommended to get fitness tests done annually. You may be advised if your doctor feels it necessary to see certain symptoms. Other reasons that make an annual fitness essential test necessary are: You are obese. You have a family history of heart diseases, thyroid, cancer, etc. You are above the age of 60 years. You don’t have a healthy lifestyle."
+        },
+        {
+          "How do I prepare for a fitness essential test?": "Since these are simple blood tests for medical fitness, you just need to: Not eat/drink anything for 8-10 hours in case your doctor advises fasting. In case you need to get a urine testing done, make sure to drink plenty of fluids to give an adequate urine sample. Tell your doctor if you are on any medication or supplements."
+        },
+        {
+          "How does fitness essential test at home work?": "Technology has made these tests available at home and you don’t need to spend time looking for medical fitness test near me at labs or hospitals. The procedure for getting an at-home fitness test is: Buy the test pack and schedule it at a convenient time. A DMLT and WHO certified phlebotomist will collect your samples from home. Your fitness test report will be available on email and Care.fit app."
+        },
+        {
+          "Are there any risks/ side effects of fitness essential test?": "There are no side effects of fitness tests. However: Though it’s rare, some people may feel fatigued or dizzy. Travelling to a lab or clinic may increase your risk of infection or injuries, especially in those with immunity disorders."
+        },
+        {
+          "What do my test results mean?": "Here is how some of the values in your test are interpreted: S.no Values Healthy range 1 RBCs 4.35-5.65 trillion cells/L 2 Haemoglobin 13.2-16.6 grams/dL 3 Hematocrit 38.3-48.6 percent 4 WBCs 3.4-9.6 billion cells/L 5 Platelets 135-317 billion/L 6 Blood sugar 72-99 mg/dL (fasting) 7 Testosterone 300 ng/dL 8 IgE 150-300 Ui/ml 9 Urine pH 4.5-8 10 TSH 18-30 years: 0.5-4.15 miu/L 31-50 years: 0.5-4.15 miu/L 51-70 years: 0.5-4.59 miu/L 71-90 years: 0.4-5.49 miu/L"
+        }
+      ]
     },
     {
-      "title":"Fitness Essentials - Women",
-      "image":"https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/diagnostics/screening-packs/WorkoutWellness_women_magazine_web2.png",
-      "price":2990,
-      "offerPrice":1790
+      "title": "Fitness Essentials - Women",
+      "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/diagnostics/screening-packs/WorkoutWellness_women_magazine_web2.png",
+      "price": 2990,
+      "offerPrice": 1790
     },
     {
-      "title":"Sr.Citizen Advance Pakcage - Male",
-      "image":"https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/diagnostics/screening-packs/sr_citizen_adv_m_mag.png",
-      "price":5999,
-      "offerPrice":2990
+      "title": "Sr.Citizen Advance Pakcage - Male",
+      "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/diagnostics/screening-packs/sr_citizen_adv_m_mag.png",
+      "price": 5999,
+      "offerPrice": 2990
     },
     {
-      "title":"Sr.Citizen Advance Pakcage - Female",
-      "image":"https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/diagnostics/screening-packs/sr_citizen_adv_f_mag.png",
-      "price":5999,
-      "offerPrice":2990
+      "title": "Sr.Citizen Advance Pakcage - Female",
+      "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/diagnostics/screening-packs/sr_citizen_adv_f_mag.png",
+      "price": 5999,
+      "offerPrice": 2990
     },
     {
-      "title":"Iron Screening",
-      "image":"https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/bundle/IronScreeningClp122020.png",
-      "price":990,
-      "offerPrice":590
+      "title": "Iron Screening (Ferritin,Iron,TIBC,PTS)",
+      "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/bundle/IronScreeningClp122020.png",
+      "price": 990,
+      "offerPrice": 590,
+      "coverImage": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_500:300,c_fit/dpr_2/image/carefit/bundle/IronScreeningHero122020.png",
+      "Details": "Iron is an essential trace element and nutrient that is necessary to maintain life. It is an important part of haemoglobin, which carries oxygen throughout your body. Low iron levels can cause fatigue, shortness of breath, anxiety and head pain.",
+      "report": "48 Hrs",
+      "questions": [
+        {
+          "What is an iron test?": "Iron is a crucial mineral that is essential for maintaining healthy body practices. Iron is essential for the cells to perform optimally and this forms the basis of all our metabolic functions. Not only this, iron provides us energy for functioning, improves immunity, and muscle strength. Since the human body cannot produce iron, it is gained from the food that we eat. If our diet does not contain foods fortified with iron, and this is especially true for vegetarians, a deficiency of iron occurs. Other reasons for low iron levels include age, pregnancy, and conditions like celiac disease. This leads to a condition known as anaemia and has extremely discomforting symptoms. This is where an iron test comes in. Also known as ferritin test, this is a blood test that measures different substances in the body like iron in the liquid portion of the blood, the availability and reserve capacity of transferrin, amount of stored iron in the body, levels of iron-binding proteins, etc. All these are ordered and interpreted together to help diagnose if there is an iron deficiency or overload in the blood. Ferritin test can be done either at a hospital or lab. However, with the advancement in technology and telemedicine, anaemia test at home is now a possibility."
+        },
+        {
+          "Which tests are included in the iron test?": "A ferritin test includes these types of tests: Ferritin: Ferritin is the storage form of iron and the ferritin test measures how much iron is stored in the body. When the iron levels are low, it will be pulled out of its storage for use. Iron: This anaemia blood test measures the levels of iron in the blood. Percentage Transferrin Saturation: This test looks for the levels of iron absorption in your body. Total Iron Binding Capacity (TIBC): This test measures the amount of iron that can be bound by the proteins in the blood. Besides these iron profile tests, there are several add-on tests also available like: Calcium: This test is designed to screen, diagnose, and monitor the condition and functioning of the heart, nerves, muscles, kidneys, thyroid, teeth, etc. Vitamin Test: This test assesses the levels of Vitamin B12 and D in the body. Complete haemogram (CBC + ESR): This test assesses the levels of Red Blood Cells, White Blood Cells, and platelets. This also includes the peripheral smear examination that helps in screening for anaemia, cancers, and chronic infections. Testosterone Total: This test is done for both men and women to screen issues related to fertility, PCOS, menstruation, etc."
+        },
+        {
+          "Why do I need an iron test?": "There are several benefits of getting a ferritin test done regularly: A ferritin test is the best way to screen deficiency of iron in your blood and assess if you have low or high levels of it. Since iron deficiency is common in large parts of the population, regular blood iron level tests can help in catching its symptoms early on before they convert into iron deficiency anaemia. This is helpful since the symptoms start appearing only when low levels of iron have progressed into anaemia. If you are already undergoing treatment for iron deficiency of iron, anaemia blood test is a great way to ascertain if your treatment and management plan is effective and if corrective action is required. Since healthcare costs are increasing constantly, an early and regular iron profile test helps in avoiding expensive medical services and treatments. Since you begin early treatment, you live a stress-free life once your symptoms are managed effectively and before they become chronic. Other add-on tests available in addition to iron tests, help in screening for other conditions like cancer, fertility, osteoporosis, etc."
+        },
+        {
+          "When do I need an iron test?": "An iron test may be advised by your doctor when she/he suspects an iron deficiency in your body. However, it is strongly recommended that you get an iron profile test annually since most of the symptoms of iron deficiency do not show up until it has progressed. You feel tired and fatigued constantly. You have a pale pallor. Your lower eyelids, gums, inside of the lips, nails, etc. are pale. You experience frequent headaches and dizziness. Your heartbeat is irregular or you feel palpitations. Your skin and hair lose their sheen and are dry and damaged. You experience restless leg syndrome. Your mouth feels dry and there are ulcers or cracks in it. You get abnormal cravings like that of ice, clay, or chalk. You experience feelings of depression. Your hands and feet are mostly cold. You fall sick frequently. You suffer from other health conditions that put you at risk of iron deficiency like chronic kidney diseases, etc. If there are other situations like pregnancy that put you at risk of deficiency of iron."
+        },
+        {
+          "How do I prepare for an iron test?": "You need to keep these pointers in mind before you take your iron profile test: The iron profile test is done on an empty stomach. So you need to stop eating at least 8 hours before the test. Certain medications like fluorides, birth control pills and some antibiotics may interfere with the result of the iron profile test. You need to inform your doctor about the medications that you are taking. In case you are being treated for iron deficiencies and are taking iron supplements, they must be stopped at least 24 hours before the anaemia test. If you are taking the anaemia test at home, you should prepare a comfortable corner in your house for the phlebotomist to set her/his equipment and take your samples. If you are getting the anemia test done at a hospital, lab or clinic, make sure to carry your medical reports, history, and prescriptions. Ask your doctor if there is anything that you need to do to prepare for your iron profile test, depending on your specific case."
+        },
+        {
+          "How does iron test at home work?": "With advancements in medicine, it is now extremely easy to take an iron test at home. This is how an iron profile test at home works: You need to buy the relevant iron profile test pack and schedule the anaemia test as per your convenience. An WHO and DMLT certified phlebotomist will collect your samples from the comfort of your home. After the completion of the diagnostic test, an experienced lab will process your reports. You will receive your ferritin test report within 24 hours of the test in your email."
+        },
+        {
+          "Are there any risks/ side effects of an iron test?": "Being a simple blood test, a ferritin test has few side effects. However, some people may experience: Minor bleeding or bruising on the spot where the blood was drawn. Fatigue or light-headedness, though this is extremely rare. In case this happens, you may need to sit for a while and have something to drink or eat before you leave the clinic. Visiting a lab, clinic, or hospital for an iron blood test, may increase the risk of infections. This can be avoided by taking the iron blood test at home."
+        },
+        {
+          "What does my test result mean?": "Iron profile results tend to vary from one lab to the other. But typically this is how anaemia test results are interpreted: S.no Test Healthy range 1. TIBC 262-474 mcg/dL 2. Total serum iron 26-170 mcg/dL in women and 76-198 mcg/dL in men 3. Transferrin saturation 204-360 mg/dL"
+        }
+      ]
     },
     {
-      "title":"Women's Health",
-      "image":"https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/bundle/WomensHealthScreening_Magazine.png",
-      "price":3490,
-      "offerPrice":1490
+      "title": "Women's Health",
+      "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/bundle/WomensHealthScreening_Magazine.png",
+      "price": 3490,
+      "offerPrice": 1490
     },
     {
-      "title":"PCOD Profile",
-      "image":"https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/diagnostics/screening-packs/PCODMagazineWeb.png",
-      "price":2490,
-      "offerPrice":1990
+      "title": "PCOD Profile",
+      "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/diagnostics/screening-packs/PCODMagazineWeb.png",
+      "price": 2490,
+      "offerPrice": 1990
     },
     {
-      "title":"Haemogram With CBC",
-      "image":"https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/bundle/mp/HaemogramWithCBCClp.jpg",
-      "price":590,
-      "offerPrice":290
+      "title": "Haemogram With CBC",
+      "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/bundle/mp/HaemogramWithCBCClp.jpg",
+      "price": 590,
+      "offerPrice": 290
     },
     {
-      "title":"Diabets Screening",
-      "image":"https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/bundle/mp/diag_pack_Diabetes_Screening_clp.jpg",
-      "price":590,
-      "offerPrice":450
+      "title": "Diabets Screening",
+      "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/bundle/mp/diag_pack_Diabetes_Screening_clp.jpg",
+      "price": 590,
+      "offerPrice": 450
     },
     {
-      "title":"Lipid Screening",
-      "image":"https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/bundle/LipidScreening_Magazine.png",
-      "price":690,
-      "offerPrice":290
+      "title": "Lipid Screening",
+      "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/bundle/LipidScreening_Magazine.png",
+      "price": 690,
+      "offerPrice": 290
     },
     {
-      "title":"Immunity Screening",
-      "image":"https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/bundle/ImmunityCcreening_Magazine.png",
-      "price":2990,
-      "offerPrice":1190
+      "title": "Immunity Screening",
+      "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/bundle/ImmunityCcreening_Magazine.png",
+      "price": 2990,
+      "offerPrice": 1190
     },
     {
-      "title":"Energy Screening",
-      "image":"https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/bundle/CF01032_hero_2.png",
-      "price":1900,
-      "offerPrice":990
+      "title": "Energy Screening",
+      "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/bundle/CF01032_hero_2.png",
+      "price": 1900,
+      "offerPrice": 990
     },
     {
-      "title":"Preganancy Test",
-      "image":"https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/bundle/PregnancyScreening_Magazine.png",
-      "price":790,
-      "offerPrice":590
+      "title": "Preganancy Test",
+      "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/bundle/PregnancyScreening_Magazine.png",
+      "price": 790,
+      "offerPrice": 590
     },
     {
-      "title":"Kidney Screening",
-      "image":"https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/bundle/mp/diag_pack_Kidney_Screening_clp.jpg",
-      "price":490,
-      "offerPrice":290
+      "title": "Kidney Screening",
+      "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/bundle/mp/diag_pack_Kidney_Screening_clp.jpg",
+      "price": 490,
+      "offerPrice": 290
     },
     {
-      "title":"Hair Fall Screening",
-      "image":"https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/bundle/HairFallScreeningClp122019.png",
-      "price":2990,
-      "offerPrice":1090
+      "title": "Hair Fall Screening",
+      "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/bundle/HairFallScreeningClp122019.png",
+      "price": 2990,
+      "offerPrice": 1090
     },
     {
-      "title":"Bone Health Screening",
-      "image":"https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/bundle/BoneHealthScreening_Magazine.png",
-      "price":1490,
-      "offerPrice":890
+      "title": "Bone Health Screening",
+      "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/bundle/BoneHealthScreening_Magazine.png",
+      "price": 1490,
+      "offerPrice": 890
     },
     {
-      "title":"Liver Screening",
-      "image":"https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/bundle/mp/diag_pack_Liver_Screening_clp.jpg",
-      "price":690,
-      "offerPrice":290
+      "title": "Liver Screening",
+      "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/bundle/mp/diag_pack_Liver_Screening_clp.jpg",
+      "price": 690,
+      "offerPrice": 290
     },
     {
-      "title":"Fever Panel",
-      "image":"https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/bundle/FeverPanel_Magazine.jpg",
-      "price":1990,
-      "offerPrice":890
+      "title": "Fever Panel",
+      "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/bundle/FeverPanel_Magazine.jpg",
+      "price": 1990,
+      "offerPrice": 890
     },
     {
-      "title":"Alcohol Risk",
-      "image":"https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/bundle/Alcohol_magazine.png",
-      "price":2990,
-      "offerPrice":1390
+      "title": "Alcohol Risk",
+      "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/bundle/Alcohol_magazine.png",
+      "price": 2990,
+      "offerPrice": 1390
     },
     {
-      "title":"Anemia Profile",
-      "image":"https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/diagnostics/screening-packs/Anemia_Magazine_Web_new.png",
-      "price":1990,
-      "offerPrice":1490
+      "title": "Anemia Profile",
+      "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/diagnostics/screening-packs/Anemia_Magazine_Web_new.png",
+      "price": 1990,
+      "offerPrice": 1490
     },
     {
-      "title":"Obesity Risk",
-      "image":"https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/bundle/Obesity_Risk_Magazine.jpg",
-      "price":2990,
-      "offerPrice":1190
+      "title": "Obesity Risk",
+      "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/bundle/Obesity_Risk_Magazine.jpg",
+      "price": 2990,
+      "offerPrice": 1190
     }
+  ],
 
+  "seniorLabTest": [
+    {
+      "title": "Sr.Citizen Advance Pakcage - Male",
+      "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/diagnostics/screening-packs/sr_citizen_adv_m_mag.png",
+      "price": 5999,
+      "offerPrice": 2990
+    },
+    {
+      "title": "Sr.Citizen Advance Pakcage - Female",
+      "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/diagnostics/screening-packs/sr_citizen_adv_f_mag.png",
+      "price": 5999,
+      "offerPrice": 2990
+    }
   ]
 }
 >>>>>>> 9f2b111 (.)

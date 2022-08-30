@@ -9,6 +9,7 @@ import { Navbar } from './components/Navbar';
 
 import './App.css';
 import { LabTest } from './pages/LabTest';
+import { Pages } from './pages/Pages';
 
 >>>>>>> 9f2b111 (.)
 
@@ -20,8 +21,12 @@ function App() {
      <Navbar/>
 =======
     <div className="App">
+<<<<<<< HEAD
     <LabTest/>
 >>>>>>> 9f2b111 (.)
+=======
+    <Pages/>
+>>>>>>> 3cf5de9 (.)
     </div>
   );
 }

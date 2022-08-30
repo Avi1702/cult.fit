@@ -6,6 +6,7 @@ import CardMedia from "@mui/material/CardMedia";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { Link } from "react-router-dom";
 import { useDispatch } from "react-redux";
 
@@ -76,67 +77,89 @@ export const LabTestCard = ({ labTest }) => {
       </Card>
     </Link>
 =======
+=======
+import { Link } from "react-router-dom";
+import { useDispatch } from "react-redux";
+import { getTest } from "../redux/LabTest/action";
+>>>>>>> 3cf5de9 (.)
 
 export const LabTestCard = ({ labTest }) => {
-//   console.log(labTest)
+  const dispatch=useDispatch();
+
+  React.useEffect(()=>{
+    dispatch(getTest(labTest))
+  },[dispatch])
+  const handleClick=()=>{
+    localStorage.setItem("labTest",JSON.stringify(labTest));
+  }
+  //   console.log(labTest)
   return (
-    <Card
-      sx={{
-        maxWidth: 260,
-        cursor: "pointer",
-        transition: "transform .3s",
-        boxShadow:"none",
-        border:"none",
-        "&:hover": {
+    <Link to={`/diagnostic-tests/${(labTest.title).split(" ").join("-")}`} style={{textDecoration:"none"}}>
+      <Card
+        onClick={handleClick}
+        sx={{
+          maxWidth: 260,
+          cursor: "pointer",
+          transition: "transform .3s",
+          boxShadow: "none",
+          border: "none",
+          "&:hover": {
             transform: "scale(0.97)",
-            boxShadow: '0 3px 6px #d3d3d3'
-        },
-      }}
-    >
-      <CardMedia
-        component="img"
-        height="280"
-        image={labTest.image}
-        alt={labTest.title}
-        sx={{ objectFit: "fill" }}
-      />
-      <CardContent>
-        <Typography
-          variant="body2"
-          color="text.secondary"
-          sx={{
-            display: "flex",
-            justifyContent: "space-between",
-            fontSize: "15px",
-          }}
-        >
-          <Typography variant="div">Price</Typography>
+            boxShadow: "0 3px 6px #d3d3d3",
+          },
+        }}
+      >
+        <CardMedia
+          component="img"
+          height="280"
+          image={labTest.image}
+          alt={labTest.title}
+          sx={{ objectFit: "fill" }}
+        />
+        <CardContent>
           <Typography
-            variant="div"
-            sx={{ fontWeight: "500", textDecoration: "line-through" }}
+            variant="body2"
+            color="text.secondary"
+            sx={{
+              display: "flex",
+              justifyContent: "space-between",
+              fontSize: "15px",
+            }}
           >
-            {"\u20B9"} {labTest.price}
+            <Typography variant="div">Price</Typography>
+            <Typography
+              variant="div"
+              sx={{ fontWeight: "500", textDecoration: "line-through" }}
+            >
+              {"\u20B9"} {labTest.price}
+            </Typography>
           </Typography>
-        </Typography>
-        <Typography
-          variant="body2"
-          color="text.secondary"
-          sx={{
-            display: "flex",
-            justifyContent: "space-between",
-            fontSize: "15px",
-          }}
-        >
-          <Typography variant="div">Offer-Price</Typography>
           <Typography
-            variant="div"
-            sx={{ fontWeight: "600", color: "rgb(71,71,71)" }}
+            variant="body2"
+            color="text.secondary"
+            sx={{
+              display: "flex",
+              justifyContent: "space-between",
+              fontSize: "15px",
+            }}
           >
-            {"\u20B9"} {labTest.offerPrice}
+            <Typography variant="div">Offer-Price</Typography>
+            <Typography
+              variant="div"
+              sx={{ fontWeight: "600", color: "rgb(71,71,71)" }}
+            >
+              {"\u20B9"} {labTest.offerPrice}
+            </Typography>
           </Typography>
+<<<<<<< HEAD
         </Typography>
       </CardContent>
     </Card>
 >>>>>>> 9f2b111 (.)
+=======
+        </CardContent>
+      </Card>
+    </Link>
+>>>>>>> 3cf5de9 (.)
   );
 };

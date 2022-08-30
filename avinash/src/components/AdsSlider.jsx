@@ -6,6 +6,7 @@ import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import Slider from "react-slick";
 import { Box } from "@mui/material";
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 
@@ -41,6 +42,11 @@ function SamplePrevArrow(props) {
   );
 }
 >>>>>>> 9f2b111 (.)
+=======
+
+
+
+>>>>>>> 3cf5de9 (.)
 
 const settings = {
   dots: true,
@@ -50,6 +56,7 @@ const settings = {
   autoplaySpeed: 3000,
   slidesToShow: 1,
   slidesToScroll: 1,
+<<<<<<< HEAD
 <<<<<<< HEAD
  
   
@@ -69,6 +76,10 @@ const settings = {
     </div>
   ),
 >>>>>>> 9f2b111 (.)
+=======
+ 
+  
+>>>>>>> 3cf5de9 (.)
 };
 
 export const AdsSlider = () => {
