@@ -5,36 +5,9 @@ import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 
 import Slider from "react-slick";
 import { Box } from "@mui/material";
-function SampleNextArrow(props) {
-  const { className, style, onClick } = props;
-  return (
-    <div
-      className={className}
-      style={{
-        display: "block",
-        position: "absolute",
-        right: "100px",
-        top: "40px",
-      }}
-      onClick={onClick}
-    >
-      <ArrowForwardIosIcon
-        sx={{ position: "absolute", right: "50px", fontSize: "100px" }}
-      />
-    </div>
-  );
-}
 
-function SamplePrevArrow(props) {
-  const { className, style, onClick } = props;
-  return (
-    <div
-      className={className}
-      style={{ ...style, display: "block", background: "green" }}
-      onClick={onClick}
-    />
-  );
-}
+
+
 
 const settings = {
   dots: true,
@@ -44,20 +17,8 @@ const settings = {
   autoplaySpeed: 3000,
   slidesToShow: 1,
   slidesToScroll: 1,
-  //   nextArrow: <SampleNextArrow />,
-  //       prevArrow: <SamplePrevArrow />,
-  appendDots: (dots) => (
-    <div
-      style={{
-        width: "100%",
-        textAlign: "left",
-        backgroundColor: "#ffffff",
-        padding: "2px",
-      }}
-    >
-      <ul style={{ marginTop: "0px" }}> {dots} </ul>
-    </div>
-  ),
+ 
+  
 };
 
 export const AdsSlider = () => {
