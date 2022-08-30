@@ -1,0 +1,149 @@
+{
+  "labTest":[
+    {
+      "title":"Full Body Checkup",
+      "image":"https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/bundle/FitCheck_Magazine-02.png",
+      "price":1990,
+      "offerPrice":890
+    },
+    {
+      "title":"Vitamin Profile",
+      "image":"https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/bundle/mp/diag_pack_Vitamin_Profile_clp.jpg",
+      "price":1990,
+      "offerPrice":790
+    },
+    {
+      "title":"Thyroid Screening",
+      "image":"https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/bundle/mp/diag_pack_Thyroid_Screening_clp.jpg",
+      "price":590,
+      "offerPrice":390
+    },
+    {
+      "title":"Fitness Essentials - Men",
+      "image":"https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/diagnostics/screening-packs/WorkoutWellness_men_magazine_web2.png",
+      "price":2990,
+      "offerPrice":1790
+    },
+    {
+      "title":"Fitness Essentials - Women",
+      "image":"https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/diagnostics/screening-packs/WorkoutWellness_women_magazine_web2.png",
+      "price":2990,
+      "offerPrice":1790
+    },
+    {
+      "title":"Sr.Citizen Advance Pakcage - Male",
+      "image":"https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/diagnostics/screening-packs/sr_citizen_adv_m_mag.png",
+      "price":5999,
+      "offerPrice":2990
+    },
+    {
+      "title":"Sr.Citizen Advance Pakcage - Female",
+      "image":"https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/diagnostics/screening-packs/sr_citizen_adv_f_mag.png",
+      "price":5999,
+      "offerPrice":2990
+    },
+    {
+      "title":"Iron Screening",
+      "image":"https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/bundle/IronScreeningClp122020.png",
+      "price":990,
+      "offerPrice":590
+    },
+    {
+      "title":"Women's Health",
+      "image":"https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/bundle/WomensHealthScreening_Magazine.png",
+      "price":3490,
+      "offerPrice":1490
+    },
+    {
+      "title":"PCOD Profile",
+      "image":"https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/diagnostics/screening-packs/PCODMagazineWeb.png",
+      "price":2490,
+      "offerPrice":1990
+    },
+    {
+      "title":"Haemogram With CBC",
+      "image":"https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/bundle/mp/HaemogramWithCBCClp.jpg",
+      "price":590,
+      "offerPrice":290
+    },
+    {
+      "title":"Diabets Screening",
+      "image":"https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/bundle/mp/diag_pack_Diabetes_Screening_clp.jpg",
+      "price":590,
+      "offerPrice":450
+    },
+    {
+      "title":"Lipid Screening",
+      "image":"https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/bundle/LipidScreening_Magazine.png",
+      "price":690,
+      "offerPrice":290
+    },
+    {
+      "title":"Immunity Screening",
+      "image":"https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/bundle/ImmunityCcreening_Magazine.png",
+      "price":2990,
+      "offerPrice":1190
+    },
+    {
+      "title":"Energy Screening",
+      "image":"https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/bundle/CF01032_hero_2.png",
+      "price":1900,
+      "offerPrice":990
+    },
+    {
+      "title":"Preganancy Test",
+      "image":"https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/bundle/PregnancyScreening_Magazine.png",
+      "price":790,
+      "offerPrice":590
+    },
+    {
+      "title":"Kidney Screening",
+      "image":"https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/bundle/mp/diag_pack_Kidney_Screening_clp.jpg",
+      "price":490,
+      "offerPrice":290
+    },
+    {
+      "title":"Hair Fall Screening",
+      "image":"https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/bundle/HairFallScreeningClp122019.png",
+      "price":2990,
+      "offerPrice":1090
+    },
+    {
+      "title":"Bone Health Screening",
+      "image":"https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/bundle/BoneHealthScreening_Magazine.png",
+      "price":1490,
+      "offerPrice":890
+    },
+    {
+      "title":"Liver Screening",
+      "image":"https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/bundle/mp/diag_pack_Liver_Screening_clp.jpg",
+      "price":690,
+      "offerPrice":290
+    },
+    {
+      "title":"Fever Panel",
+      "image":"https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/bundle/FeverPanel_Magazine.jpg",
+      "price":1990,
+      "offerPrice":890
+    },
+    {
+      "title":"Alcohol Risk",
+      "image":"https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/bundle/Alcohol_magazine.png",
+      "price":2990,
+      "offerPrice":1390
+    },
+    {
+      "title":"Anemia Profile",
+      "image":"https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/diagnostics/screening-packs/Anemia_Magazine_Web_new.png",
+      "price":1990,
+      "offerPrice":1490
+    },
+    {
+      "title":"Obesity Risk",
+      "image":"https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,ar_0.8,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/bundle/Obesity_Risk_Magazine.jpg",
+      "price":2990,
+      "offerPrice":1190
+    }
+
+  ]
+}
