@@ -7,20 +7,14 @@ import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import { Link } from "react-router-dom";
 import { useDispatch } from "react-redux";
-import { getTest } from "../redux/LabTest/action";
 
 export const LabTestCard = ({ labTest }) => {
-  const dispatch=useDispatch();
-
-  React.useEffect(()=>{
-    dispatch(getTest(labTest))
-  },[dispatch])
   const handleClick=()=>{
     localStorage.setItem("labTest",JSON.stringify(labTest));
   }
   //   console.log(labTest)
   return (
-    <Link to={`/diagnostic-tests/${(labTest.title).split(" ").join("-")}`} style={{textDecoration:"none"}}>
+    <Link to={`/care/diagnostic-tests/${(labTest.title).split(" ").join("-")}`} style={{textDecoration:"none"}}>
       <Card
         onClick={handleClick}
         sx={{

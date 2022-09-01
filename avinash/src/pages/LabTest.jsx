@@ -13,10 +13,12 @@ import { LabTestCard } from "../components/LabTestCard";
 import { Faqs } from "../components/jsonfiles/Faqs";
 import {Faq} from "../components/Faq"
 import { senior } from "../components/jsonfiles/senior";
+import { LabTestBar } from "../components/LabTestBar";
 export const LabTest = () => {
   const { loading, error, LabTest} = useSelector(
     (state) => state.labTest
   );
+  console.log(loading,error,LabTest)
   const dispatch = useDispatch();
 
   useEffect(() => {
@@ -41,30 +43,7 @@ export const LabTest = () => {
         <div style={{ overflow: "hidden" }}>
           {/* <img src={loading} alt="loading"/> */}
 
-          <Box
-            variant="div"
-            sx={{ width: "100%", backgroundColor: "rgb(57,58,59)" }}
-          >
-            <Button
-              variant="contained"
-              sx={{
-                color: "rgb(235,235,235)",
-                backgroundColor: "rgb(29,29,33)",
-                border: "none",
-                textTransform: "none",
-                margin: "10px",
-                fontSize: "15px",
-                cursor: "pointer",
-                "&:hover": {
-                  color: "#c2c0c0",
-                  backgroundColor: "rgb(29,29,33)",
-                  border: "none",
-                },
-              }}
-            >
-              Lab Tests
-            </Button>
-          </Box>
+          <LabTestBar/>
           <img
             width="100%"
             src="https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_1440,ar_1360:150/dpr_2/image/vm/470a6641-25c1-4bf5-9efd-a9b6713d5f29.png"
