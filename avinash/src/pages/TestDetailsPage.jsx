@@ -12,24 +12,15 @@ import AccessTimeIcon from "@mui/icons-material/AccessTime";
 import testSvg from "../components/logo/tests.svg";
 import LocalOfferIcon from "@mui/icons-material/LocalOffer";
 import { LabTestBar } from "../components/LabTestBar";
-import { useEffect } from "react";
-import axios from "axios";
+import { TestCard } from "../components/TestCard";
+import { Questions } from "../components/Questions";
+import { useState } from "react";
+import { AddPeopleModel } from "../components/AddPeopleModel";
 
 export const TestDetailsPage = () => {
-    const testData = JSON.parse(localStorage.getItem("labTest"));
-    const testids=(testData.test).map((ele => ele.replace(/'/g,'"')))
-    let arrayIds=[];
-    console.log(testids)
-  useEffect(() => {
-    axios({
-      method: "get",
-      url: `http://localhost:8058/test/?ids=${testids}`
-    })
-      .then((res) =>console.log(res))
-      .catch((error) => console.log(error));
-  }, [testids]);
-
-  
+  const testData = JSON.parse(localStorage.getItem("labTest"));
+  const [openPModel,setOpenPModel]=useState(false);
+ 
   return (
     <Box variant="div">
       <LabTestBar />
@@ -106,7 +97,7 @@ export const TestDetailsPage = () => {
                 letterSpacing: "0.5px",
               }}
             >
-             Diagnostic Tests
+              Diagnostic Tests
             </Typography>
             <KeyboardArrowRightIcon
               sx={{ fontSize: "23px", justifyItems: "center" }}
@@ -184,9 +175,9 @@ export const TestDetailsPage = () => {
                       gap: "6px",
                     }}
                   >
-                    <img src={testSvg} width="16px"  alt="testsvg"/>
+                    <img src={testSvg} width="16px" alt="testsvg" />
 
-                    <Typography sx={{}}>2 Tests</Typography>
+                    <Typography sx={{}}>{testData.test.length} Tests</Typography>
                   </Box>
                   <Box
                     sx={{
@@ -204,6 +195,7 @@ export const TestDetailsPage = () => {
                 <CardActions>
                   <Button
                     variant="contained"
+                    onClick={()=>setOpenPModel(!openPModel)}
                     sx={{
                       backgroundColor: "rgb(251,58,89)",
                       borderRadius: "30px",
@@ -227,10 +219,10 @@ export const TestDetailsPage = () => {
               backgroundColor: "rgb(235,243,255)",
               border: "1px solid rgb(201,221,255)",
               display: "flex",
-              alignItems:"center",
-              gap:"10px",
+              alignItems: "center",
+              gap: "10px",
               padding: "10px",
-              borderRadius:"10px",
+              borderRadius: "10px",
               marginTop: "50px",
             }}
           >
@@ -238,12 +230,45 @@ export const TestDetailsPage = () => {
             <Typography sx={{}} color="text.secondary">
               Get extra 10% instant discount using card during payment
             </Typography>
-            <Typography variant="div" sx={{textDecoration:"underline", cursor:"pointer"}}>
-            T&C
+            <Typography
+              variant="div"
+              sx={{ textDecoration: "underline", cursor: "pointer" }}
+            >
+              T&C
             </Typography>
+          </Box>
+
+          <Box variant="div" sx={{ textAlign: "left", marginTop: "40px" }}>
+            <Typography
+              variant="h6"
+              sx={{
+                fontSize: "18px",
+                fontWeight: "700",
+                letterSpacing: "0.5px",
+              }}
+            >
+              Tests Included
+            </Typography>
+            <Box
+              variant="div"
+              sx={{ display: "flex", gap: "20px", marginTop: "20px" }}
+            >
+              {testData.test.map((ele) => (
+                <TestCard test={ele} key={ele.name} testData={testData.test}/>
+              ))}
+            </Box>
           </Box>
         </Box>
       </Box>
+
+      <Box variant="div" sx={{width:"90%",backgroundColor:"rgb(23,26,38)", columnCount:"2", padding:"5%",columnGap:"50px",marginTop:"40px"}}>
+           {
+            testData.questions.map((ele)=><Questions que={ele} key={Object.keys(ele)}/>)
+           }     
+
+      </Box>
+
+      <AddPeopleModel open={openPModel} setOpen={setOpenPModel}/>
     </Box>
   );
 };

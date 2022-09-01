@@ -42,6 +42,22 @@
         {
           "What does my result mean?": "This is how vitamin test results are interpreted: S.no Vitamin Healthy range 1. Vitamin B12 190-950 (pg/mL) 2. Vitamin D 20-50 ng/mL"
         }
+      ],
+      "test":[
+        {
+          "name":"Vitamin B12",
+          "image":"https://s3.ap-south-1.amazonaws.com/curefit-content/image/carefit/diagnostic-tests/CF00533.jpg",
+          "details":"A deficiency of vitamin B12 can cause lack of energy and tiredness. Vitamin B12 works closely with vitamin B9 to help make red blood cells and to make nerves and iron work better in the body.",
+          "testsIncludes":1,
+          "report":"Reports in 36 Hrs"
+        },
+        {
+          "name":"Vitamin D Total",
+          "image":"https://s3.ap-south-1.amazonaws.com/curefit-content/image/carefit/diagnostic-tests/CF00536.jpg",
+          "details":"Vitamin D helps your body absorb calcium. Vitamin D deficiency is linked to fatigue, bone and muscle pain, as well as getting ill more often than usual.",
+          "testsIncludes":1,
+          "report":"Reports in 36 Hrs"
+        }
       ]
     },
     {
@@ -76,6 +92,29 @@
         },
         {
           "resultWhat does my result mean?": "This is how the thyroid test and the levels of TSH are interpreted: S.no Range Interpretation 1. 4.7-10 mU/L Subclinical hypothyroidism i.e. without observable symptoms 2. Higher than 10 mU/L Symptomatic hypothyroidism 3. 0.1-0.5 mU/L Subclinical hyperthyroidism i.e. without observable symptoms 4 Less than 0.1 mU/L Overt hyperthyroidism Interpreting T3 and T4 hormones S.no TSH T3 T4 Interpretation 1. Normal Normal Normally functioning thyroid gland 2. Low High Hyperthyroidism 3. High Low Primary hypothyroidism 4 Low Low Secondary hypothyroidism due to a disease of the pituitary gland or hypothalamus of the brain 5. High Low Hypothyroidism 6. Low High Hyperthyroidism"
+        }
+      ],
+      "test":[
+        {
+          "name":"Thyroid Stimulating Hormone (TSH)",
+          "image":"https://s3.ap-south-1.amazonaws.com/curefit-content/image/carefit/diagnostic-tests/CF00487.jpg",
+          "details":"This test is done to screen for and diagnose thyroid disorders. It is done if you have symptoms of hyperthyroidism like weight loss, nervousness, tremors or hypothyroidism like weight gain, constipation, fatigue, cold intolerance.",
+          "testsIncludes":1,
+          "report":"Reports in 36 Hrs"
+        },
+        {
+          "name":"Thyroxine Total (T4)",
+          "image":"https://s3.ap-south-1.amazonaws.com/curefit-content/image/carefit/diagnostic-tests/CF00109.jpg",
+          "details":"A thyroxine test helps diagnose disorders of the thyroid. Thyroxine, also known as T4, is a type of thyroid hormone. This test measures the level of T4 in your blood. Too much or too little T4 can indicate thyroid disease.",
+          "testsIncludes":1,
+          "report":"Reports in 36 Hrs"
+        },
+        {
+          "name":"Triiodothyronine Total (T3)",
+          "image":"https://s3.ap-south-1.amazonaws.com/curefit-content/image/carefit/diagnostic-tests/CF00351.jpg",
+          "details":"The Triiodothyronine test is performed to detect and diagnose disorders of the thyroid gland including hypothyroidism and to evaluate the effectiveness of the treatment.",
+          "testsIncludes":1,
+          "report":"Reports in 36 Hrs"
         }
       ]
     },
@@ -113,6 +152,7 @@
           "What do my test results mean?": "Here is how some of the values in your test are interpreted: S.no Values Healthy range 1 RBCs 4.35-5.65 trillion cells/L 2 Haemoglobin 13.2-16.6 grams/dL 3 Hematocrit 38.3-48.6 percent 4 WBCs 3.4-9.6 billion cells/L 5 Platelets 135-317 billion/L 6 Blood sugar 72-99 mg/dL (fasting) 7 Testosterone 300 ng/dL 8 IgE 150-300 Ui/ml 9 Urine pH 4.5-8 10 TSH 18-30 years: 0.5-4.15 miu/L 31-50 years: 0.5-4.15 miu/L 51-70 years: 0.5-4.59 miu/L 71-90 years: 0.4-5.49 miu/L"
         }
       ]
+      
     },
     {
       "title": "Fitness Essentials - Women",
@@ -165,6 +205,37 @@
         {
           "What does my test result mean?": "Iron profile results tend to vary from one lab to the other. But typically this is how anaemia test results are interpreted: S.no Test Healthy range 1. TIBC 262-474 mcg/dL 2. Total serum iron 26-170 mcg/dL in women and 76-198 mcg/dL in men 3. Transferrin saturation 204-360 mg/dL"
         }
+      ],
+      "test":[
+        {
+          "name":"Ferritin",
+          "image":"https://s3.ap-south-1.amazonaws.com/curefit-content/image/carefit/diagnostic-tests/CF00285.jpg",
+          "details":"Ferritin is the storage form of iron in the body. Iron is released from ferritin when the body needs it. This test measures how much iron is stored in your body. When your iron level is low, your body will pull iron out of storage to use.",
+          "testsIncludes":1,
+          "report":"Reports in 36 Hrs"
+        },
+        {
+          "name":"Iron",
+          "image":"https://s3.ap-south-1.amazonaws.com/curefit-content/image/carefit/diagnostic-tests/CF00334.jpg",
+          "details":"Iron is a mineral in your body which is required to make red blood cells and is also an important part of haemoglobin, a protein in your blood that helps carry oxygen from your lungs to the rest of your body. Too little (anemia) or too much (iron overload) iron in your system is harmful for your body.",
+          "testsIncludes":1,
+          "report":"Reports in 36 Hrs"
+        },
+        {
+          "name":"Percentage Transferrin Saturation",
+          "image":"https://s3.ap-south-1.amazonaws.com/curefit-content/image/carefit/diagnostic-tests/CF00155.jpg",
+          "details":"When iron absorption is abnormally high, transferrin proteins become more saturated with iron. An elevated TS value therefore reflects an increase in iron absorption.",
+          "testsIncludes":1,
+          "report":"Reports in 36 Hrs"
+        },
+        {
+          "name":"Total Iron Binding Capacity (TIBC)",
+          "image":"https://s3.ap-south-1.amazonaws.com/curefit-content/image/carefit/diagnostic-tests/CF00167.jpg",
+          "details":"This test measures the total amount of iron that can be bound by proteins in the blood.",
+          "testsIncludes":1,
+          "report":"Reports in 36 Hrs"
+        }
+
       ]
     },
     {
