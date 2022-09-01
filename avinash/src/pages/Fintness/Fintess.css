@@ -52,4 +52,33 @@
 }
 
 
+/* center near */
+.center_near_flex{
+   display: flex;
+}
+.center_near{
+   height: 300px;
+   width: fit-content;
+   color: white;
+   margin-left: 100px;
+}
 
+.center_near img{
+   width: 100%;
+   height: 100%;
+}
+
+.near_info{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   background-color: rgb(47,51,54);
+}
+
+
+.near_info h3{
+   padding: 10px;
+   background-color: rgb(89,90,94);
+   border-radius: 5px;
+   color: white;
+}

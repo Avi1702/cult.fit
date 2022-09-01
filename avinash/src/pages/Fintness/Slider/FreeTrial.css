@@ -1,0 +1,10 @@
+.trial_main{
+    color: white;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.trial_flex{
+    display: flex;
+    justify-content: space-around;
+}
