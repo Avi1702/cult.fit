@@ -82,3 +82,58 @@
    border-radius: 5px;
    color: white;
 }
+
+.banner2{
+   width: 100%;
+}
+
+
+
+/* banner info */
+.city{
+   width: 500px;
+}
+.trial_main_div{
+   display: flex;
+   justify-content:space-around;
+ }
+
+.logo_tag{
+   height: 30px;
+}
+
+.trial_main_div h1,h4{
+color: white;
+}
+
+.point_flex{
+   display: flex;
+   align-items: center;
+}
+.point_flex img{
+   height: 30px;
+}
+
+.point_image{
+   height: 500px;
+   width: 600px;
+   margin: 20px;
+   border-radius: 10px;
+}
+
+.try_free_now{
+   background-color: rgb(59,64,69);
+   color: white;
+   font-size:large;
+   padding: 10px;
+   border-radius: 10px;
+   margin-right: 10px;
+}
+
+.buy{
+   background-color:white;
+   color: rgb(242,101,93);
+   font-size:large;
+   padding: 10px;
+   border-radius: 10px;
+}

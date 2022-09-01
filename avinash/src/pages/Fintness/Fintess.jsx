@@ -69,8 +69,99 @@ const Fintess = () => {
 
         {/* free trial */}
         <FreeTrial/>
+
+        {/* part 1 */}
+        <div  className='trial_main_div'>
+          <div>
+            
+            <img className='logo_tag' src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_294,ar_6.55,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/brand-logo/cult-pass-elite.png" alt="" />
+            <h1 className='city'>Unlimited access to everything in your city</h1>
+            <h4>Unlimited access to</h4>
+            
+            <div className='point_flex'>
+              <img src="https://static.cure.fit/assets/images/orangeTick.png" alt="" />
+              <h3>At-center group classes</h3>
+            </div>
+
+            <div className='point_flex'>
+              <img src="https://static.cure.fit/assets/images/orangeTick.png" alt="" />
+              <h3>All ELITE & PRO gyms</h3>
+            </div>
+
+            <div className='point_flex'>
+              <img src="https://static.cure.fit/assets/images/orangeTick.png" alt="" />
+              <h3>At-home live workouts</h3>
+            </div>
+
+            <h3>Starting at ₹1042 / month</h3>
+
+            <div className='point_flex'>
+              <div className='try_free_now'>TRY FOR FREE</div>
+              <div className='buy'>BUY</div>
+            </div>
+
+            <div className='point_flex'>
+              <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_27,ar_0.96,q_auto:eco,dpr_2,f_auto,fl_progressive/image/test/sku-card-widget/offer.png" alt="" />
+              <h3>SALE ON NOW</h3>
+            </div>
+
+          </div>
+
+          <div>
+            <img className='point_image ' src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_842,ar_1.2,q_auto:eco,dpr_2,f_auto,fl_progressive/image/test/sku-card-widget/black2.png" alt="" />
+          </div>
+
+        </div>
+
+        {/* part 2 */}
+
+        <div  className='trial_main_div'>
+
+        <div>
+            <img className='point_image ' src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_842,ar_1.2,q_auto:eco,dpr_1,f_auto,fl_progressive/image/test/sku-card-widget/gold2.png" alt="" />
+          </div>
+
+          <div>
+            
+            <img className='logo_tag' src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_294,ar_6.55,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/brand-logo/cult-pass-elite.png" alt="" />
+            <h1 className='city'>Unlimited access to PRO gyms in your city</h1>
+            <h4>Unlimited access to</h4>
+            
+            <div className='point_flex'>
+              <img src="https://static.cure.fit/assets/images/orangeTick.png" alt="" />
+              <h3>All PRO gyms</h3>
+            </div>
+
+            <div className='point_flex'>
+              <img src="https://static.cure.fit/assets/images/orangeTick.png" alt="" />
+              <h3>At-home live workouts</h3>
+            </div>
+
+            <div className='point_flex'>
+              <img src="https://static.cure.fit/assets/images/orangeTick.png" alt="" />
+              <h3>4 Sessions/month at ELITE gyms & group classes</h3>
+            </div>
+
+            <h3>Starting at ₹633 / month</h3>
+
+            <div className='point_flex'>
+              <div className='try_free_now'>TRY FOR FREE</div>
+              <div className='buy'>BUY</div>
+            </div>
+
+            <div className='point_flex'>
+              <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_27,ar_0.96,q_auto:eco,dpr_2,f_auto,fl_progressive/image/test/sku-card-widget/offer.png" alt="" />
+              <h3>SALE ON NOW</h3>
+            </div>
+
+          </div>
+
+         
+
+        </div>
   
-  
+        <img className='banner2' src="https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_1440,ar_1738:763/dpr_2/image/vm/a5077452-0ba1-469f-a9ab-3eb6429de7c2.png" alt="" />
+   
     </>
   )
 }
