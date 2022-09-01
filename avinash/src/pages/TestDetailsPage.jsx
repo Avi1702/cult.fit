@@ -277,6 +277,19 @@ export const TestDetailsPage = () => {
 import React, { useEffect, useState } from 'react';
 import { useSelector } from 'react-redux';
 
+export const TestDetailsPage = () => {
+    const testData = JSON.parse(localStorage.getItem("labTest"));
+    const testids=(testData.test).map((ele => ele.replace(/'/g,'"')))
+    let arrayIds=[];
+    console.log(testids)
+  useEffect(() => {
+    axios({
+      method: "get",
+      url: `http://localhost:8058/test/?ids=${testids}`
+    })
+      .then((res) =>console.log(res))
+      .catch((error) => console.log(error));
+  }, [testids]);
 
 export const TestDetailsPage=()=>{
     const {test}=useSelector((state)=>state.labTest)

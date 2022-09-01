@@ -12,7 +12,6 @@ const init = {
   loading: false,
   error: false,
   LabTest: [],
-  test:[]
 };
 
 export const reducer = (state = init, { type, payload }) => {

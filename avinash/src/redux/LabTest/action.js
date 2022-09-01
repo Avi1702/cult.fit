@@ -1,4 +1,4 @@
-import { ERROR_LAB_TEST, GET_LAB_TEST, GET_TEST, LOADING_LAB_TEST } from "./actionType"
+import { ERROR_LAB_TEST, GET_LAB_TEST, LOADING_LAB_TEST } from "./actionType"
 
 export const getLabTest=(payload)=>{
     return {

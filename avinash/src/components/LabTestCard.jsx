@@ -84,17 +84,12 @@ import { getTest } from "../redux/LabTest/action";
 >>>>>>> 3cf5de9 (.)
 
 export const LabTestCard = ({ labTest }) => {
-  const dispatch=useDispatch();
-
-  React.useEffect(()=>{
-    dispatch(getTest(labTest))
-  },[dispatch])
   const handleClick=()=>{
     localStorage.setItem("labTest",JSON.stringify(labTest));
   }
   //   console.log(labTest)
   return (
-    <Link to={`/diagnostic-tests/${(labTest.title).split(" ").join("-")}`} style={{textDecoration:"none"}}>
+    <Link to={`/care/diagnostic-tests/${(labTest.title).split(" ").join("-")}`} style={{textDecoration:"none"}}>
       <Card
         onClick={handleClick}
         sx={{
