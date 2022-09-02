@@ -8,6 +8,7 @@
 # testing
 /coverage
 
+
 # production
 /build
 
@@ -21,8 +22,13 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+<<<<<<< HEAD
 
 
 package.json
 
 package-lock.json
+=======
+#package
+package.json
+>>>>>>> 4a36b4fa298a481ae26daeeba4ed6abfa7e5d172

@@ -6,12 +6,12 @@ import cult4 from "../images/cult4.png"
 import cult5 from "../images/cult4.0.png"
 import cult6 from "../images/cult6.png"
 import cult7 from "../images/cult7.png"
-// import linearGradient 
+import '../styles/myHome.css'
 
 
 export const Home = () => {
   return (
-    <div id='main'>
+    <div id='main' style={{width:"100%"}}>
 
          <div className="top content" style={{position:"relative"}}> 
          <video className="style-prefix-16i193b e1o2qubs0" autoPlay loop muted playsInline poster='https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_1400,ar_1.77,q_auto:eco,dpr_2,f_auto,fl_progressive/image/test/we-are-cult-logo/promo-video-poster.jpg'>
