@@ -40,8 +40,8 @@ export const PersonalDetailsModel = ({ open, setOpen }) => {
 
   React.useEffect(() => {
     if (checked && gValue && name && bDate) {
-      console.log(checked);
-      setSave(!save);
+
+      setSave(s=>true);
     }
   }, [checked, gValue, name, bDate]);
 

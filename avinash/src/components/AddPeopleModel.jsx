@@ -42,8 +42,6 @@ export const AddPeopleModel = ({ open, setOpen }) => {
       .catch((error) => console.log(error));
   }, []);
 
-  console.log(people);
-
   return (
     <div>
       <Modal open={open} onClose={() => setOpen(!open)}>
@@ -69,10 +67,11 @@ export const AddPeopleModel = ({ open, setOpen }) => {
             variant="div"
             sx={{
               display: "flex",
-              alignItems: "center",
+              alignItems: "top",
               alignContent: "center",
               justifyContent: "top",
               padding: "20px",
+              marginTop:"15px",
               gap: "20px",
             }}
           >
@@ -99,10 +98,10 @@ export const AddPeopleModel = ({ open, setOpen }) => {
                   variant="div"
                   sx={{
                     textAlign: "center",
-                    marginTop: "20px",
                     width: "60px",
                     cursor: "pointer",
                   }}
+                  key={ele.name}
                 >
                   <Avatar
                     sx={{

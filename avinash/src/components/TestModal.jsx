@@ -6,7 +6,12 @@ import { TestDetailsCard } from './TestDetailsCard';
 
 
 export default function TestModal({open,setOpen,test,testData}) {
-
+  const handleAlign=()=>{
+    if(testData.length<4){
+      return "center"
+    }
+    return "left";
+  }
   return (
     <div style={{outline:"none"}}>
       <Modal
@@ -24,9 +29,10 @@ export default function TestModal({open,setOpen,test,testData}) {
             },
             display:"flex",
             gap:"30px",
-            justifyContent:"center",
+            justifyContent:{handleAlign},
             marginTop:"50px",
-            padding:"0px 200px 150px 300px",
+            alignItems:"center",
+            padding:"0px 200px 160px 50px",
             overflowY: "scroll"
 
           }}>

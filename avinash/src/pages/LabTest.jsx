@@ -18,7 +18,6 @@ export const LabTest = () => {
   const { loading, error, LabTest} = useSelector(
     (state) => state.labTest
   );
-  console.log(loading,error,LabTest)
   const dispatch = useDispatch();
 
   useEffect(() => {

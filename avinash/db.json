@@ -45,6 +45,7 @@
       ],
       "test":[
         {
+          "id":1,
           "name":"Vitamin B12",
           "image":"https://s3.ap-south-1.amazonaws.com/curefit-content/image/carefit/diagnostic-tests/CF00533.jpg",
           "details":"A deficiency of vitamin B12 can cause lack of energy and tiredness. Vitamin B12 works closely with vitamin B9 to help make red blood cells and to make nerves and iron work better in the body.",
@@ -52,6 +53,7 @@
           "report":"Reports in 36 Hrs"
         },
         {
+          "id":2,
           "name":"Vitamin D Total",
           "image":"https://s3.ap-south-1.amazonaws.com/curefit-content/image/carefit/diagnostic-tests/CF00536.jpg",
           "details":"Vitamin D helps your body absorb calcium. Vitamin D deficiency is linked to fatigue, bone and muscle pain, as well as getting ill more often than usual.",
@@ -96,13 +98,14 @@
       ],
       "test":[
         {
+          "id":3,
           "name":"Thyroid Stimulating Hormone (TSH)",
           "image":"https://s3.ap-south-1.amazonaws.com/curefit-content/image/carefit/diagnostic-tests/CF00487.jpg",
           "details":"This test is done to screen for and diagnose thyroid disorders. It is done if you have symptoms of hyperthyroidism like weight loss, nervousness, tremors or hypothyroidism like weight gain, constipation, fatigue, cold intolerance.",
           "testsIncludes":1,
           "report":"Reports in 36 Hrs"
         },
-        {
+        { "id":4,
           "name":"Thyroxine Total (T4)",
           "image":"https://s3.ap-south-1.amazonaws.com/curefit-content/image/carefit/diagnostic-tests/CF00109.jpg",
           "details":"A thyroxine test helps diagnose disorders of the thyroid. Thyroxine, also known as T4, is a type of thyroid hormone. This test measures the level of T4 in your blood. Too much or too little T4 can indicate thyroid disease.",
@@ -110,6 +113,7 @@
           "report":"Reports in 36 Hrs"
         },
         {
+          "id":5,
           "name":"Triiodothyronine Total (T3)",
           "image":"https://s3.ap-south-1.amazonaws.com/curefit-content/image/carefit/diagnostic-tests/CF00351.jpg",
           "details":"The Triiodothyronine test is performed to detect and diagnose disorders of the thyroid gland including hypothyroidism and to evaluate the effectiveness of the treatment.",
@@ -208,6 +212,7 @@
       ],
       "test":[
         {
+          "id":6,
           "name":"Ferritin",
           "image":"https://s3.ap-south-1.amazonaws.com/curefit-content/image/carefit/diagnostic-tests/CF00285.jpg",
           "details":"Ferritin is the storage form of iron in the body. Iron is released from ferritin when the body needs it. This test measures how much iron is stored in your body. When your iron level is low, your body will pull iron out of storage to use.",
@@ -215,6 +220,7 @@
           "report":"Reports in 36 Hrs"
         },
         {
+          "id":7,
           "name":"Iron",
           "image":"https://s3.ap-south-1.amazonaws.com/curefit-content/image/carefit/diagnostic-tests/CF00334.jpg",
           "details":"Iron is a mineral in your body which is required to make red blood cells and is also an important part of haemoglobin, a protein in your blood that helps carry oxygen from your lungs to the rest of your body. Too little (anemia) or too much (iron overload) iron in your system is harmful for your body.",
@@ -222,6 +228,7 @@
           "report":"Reports in 36 Hrs"
         },
         {
+          "id":8,
           "name":"Percentage Transferrin Saturation",
           "image":"https://s3.ap-south-1.amazonaws.com/curefit-content/image/carefit/diagnostic-tests/CF00155.jpg",
           "details":"When iron absorption is abnormally high, transferrin proteins become more saturated with iron. An elevated TS value therefore reflects an increase in iron absorption.",
@@ -229,6 +236,7 @@
           "report":"Reports in 36 Hrs"
         },
         {
+          "id":9,
           "name":"Total Iron Binding Capacity (TIBC)",
           "image":"https://s3.ap-south-1.amazonaws.com/curefit-content/image/carefit/diagnostic-tests/CF00167.jpg",
           "details":"This test measures the total amount of iron that can be bound by proteins in the blood.",
@@ -352,6 +360,7 @@
   ],
   "tests":[
     {
+      "id":1,
       "name":"Vitamin B12",
       "image":"https://s3.ap-south-1.amazonaws.com/curefit-content/image/carefit/diagnostic-tests/CF00533.jpg",
       "details":"A deficiency of vitamin B12 can cause lack of energy and tiredness. Vitamin B12 works closely with vitamin B9 to help make red blood cells and to make nerves and iron work better in the body.",
@@ -359,6 +368,7 @@
       "report":"Reports in 36 Hrs"
     },
     {
+      "id":2,
       "name":"Vitamin D Total",
       "image":"https://s3.ap-south-1.amazonaws.com/curefit-content/image/carefit/diagnostic-tests/CF00536.jpg",
       "details":"Vitamin D helps your body absorb calcium. Vitamin D deficiency is linked to fatigue, bone and muscle pain, as well as getting ill more often than usual.",
@@ -366,6 +376,7 @@
       "report":"Reports in 36 Hrs"
     },
     {
+      "id":3,
       "name":"Thyroid Stimulating Hormone (TSH)",
       "image":"https://s3.ap-south-1.amazonaws.com/curefit-content/image/carefit/diagnostic-tests/CF00487.jpg",
       "details":"This test is done to screen for and diagnose thyroid disorders. It is done if you have symptoms of hyperthyroidism like weight loss, nervousness, tremors or hypothyroidism like weight gain, constipation, fatigue, cold intolerance.",
@@ -373,6 +384,7 @@
       "report":"Reports in 36 Hrs"
     },
     {
+      "id":4,
       "name":"Thyroxine Total (T4)",
       "image":"https://s3.ap-south-1.amazonaws.com/curefit-content/image/carefit/diagnostic-tests/CF00109.jpg",
       "details":"A thyroxine test helps diagnose disorders of the thyroid. Thyroxine, also known as T4, is a type of thyroid hormone. This test measures the level of T4 in your blood. Too much or too little T4 can indicate thyroid disease.",
@@ -380,6 +392,7 @@
       "report":"Reports in 36 Hrs"
     },
     {
+      "id":5,
       "name":"Triiodothyronine Total (T3)",
       "image":"https://s3.ap-south-1.amazonaws.com/curefit-content/image/carefit/diagnostic-tests/CF00351.jpg",
       "details":"The Triiodothyronine test is performed to detect and diagnose disorders of the thyroid gland including hypothyroidism and to evaluate the effectiveness of the treatment.",
@@ -387,6 +400,7 @@
       "report":"Reports in 36 Hrs"
     },
     {
+      "id":6,
       "name":"Ferritin",
       "image":"https://s3.ap-south-1.amazonaws.com/curefit-content/image/carefit/diagnostic-tests/CF00285.jpg",
       "details":"Ferritin is the storage form of iron in the body. Iron is released from ferritin when the body needs it. This test measures how much iron is stored in your body. When your iron level is low, your body will pull iron out of storage to use.",
@@ -394,6 +408,7 @@
       "report":"Reports in 36 Hrs"
     },
     {
+      "id":7,
       "name":"Iron",
       "image":"https://s3.ap-south-1.amazonaws.com/curefit-content/image/carefit/diagnostic-tests/CF00334.jpg",
       "details":"Iron is a mineral in your body which is required to make red blood cells and is also an important part of haemoglobin, a protein in your blood that helps carry oxygen from your lungs to the rest of your body. Too little (anemia) or too much (iron overload) iron in your system is harmful for your body.",
@@ -401,6 +416,7 @@
       "report":"Reports in 36 Hrs"
     },
     {
+      "id":8,
       "name":"Percentage Transferrin Saturation",
       "image":"https://s3.ap-south-1.amazonaws.com/curefit-content/image/carefit/diagnostic-tests/CF00155.jpg",
       "details":"When iron absorption is abnormally high, transferrin proteins become more saturated with iron. An elevated TS value therefore reflects an increase in iron absorption.",
@@ -408,6 +424,7 @@
       "report":"Reports in 36 Hrs"
     },
     {
+      "id":9,
       "name":"Total Iron Binding Capacity (TIBC)",
       "image":"https://s3.ap-south-1.amazonaws.com/curefit-content/image/carefit/diagnostic-tests/CF00167.jpg",
       "details":"This test measures the total amount of iron that can be bound by proteins in the blood.",
