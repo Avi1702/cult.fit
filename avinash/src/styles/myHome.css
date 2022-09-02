@@ -79,7 +79,7 @@
                                                       
 .pinkish_effect{
     background-image: url("https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_500,ar_1,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/gradient-circle/pink-blur-circle.svg");
-
+    /* background:linear-gradient; */
 }
 #parent{
     width: 80%;
@@ -391,3 +391,6 @@ button:hover{
     width: 100%;
     height: 100%;
 }
+
+/* animation */
+

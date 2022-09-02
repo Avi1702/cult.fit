@@ -6,6 +6,7 @@ import cult4 from "../images/cult4.png"
 import cult5 from "../images/cult4.0.png"
 import cult6 from "../images/cult6.png"
 import cult7 from "../images/cult7.png"
+// import linearGradient 
 
 
 export const Home = () => {
@@ -17,7 +18,7 @@ export const Home = () => {
             <source src='https://cdn-images.cure.fit/www-curefit-com/video/upload/c_fill,w_1400,ar_1.77,q_auto:eco,dpr_2,vc_auto,f_auto/video/test/we-are-cult-web.mp4' type="video/mp4"></source>
         </video>
          <div className="cult_logo"><img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_500,ar_2.13,q_auto:eco,dpr_2,f_auto,fl_progressive/image/test/we-are-cult-logo/text-only-v2.png" alt=""/></div>
-         <div className='video_top_left animation' ><img src=""></img></div>
+         <div className='video_top_left animation' > </div>
          <div className='video_top_right animation'></div>
          <div className='video_bottom_left animation'></div>
          <div className='video_bottom_right animation'></div>

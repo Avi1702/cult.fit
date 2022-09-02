@@ -1,8 +1,8 @@
 // import logo from './logo.svg';
 import './App.css';
-import './styles/Home.css'
-import { Navbar } from './pages/Navbar';
-import { Home } from './pages/Home';
+import './styles/myHome.css'
+// import { Navbar } from './pages/Navbar';
+import { Home } from './pages/myHome';
 
 function App() {
   return (
