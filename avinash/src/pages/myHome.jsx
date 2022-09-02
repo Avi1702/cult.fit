@@ -6,7 +6,7 @@ import cult4 from "../images/cult4.png"
 import cult5 from "../images/cult4.0.png"
 import cult6 from "../images/cult6.png"
 import cult7 from "../images/cult7.png"
-import '../styles/Home.css'
+import '../styles/myHome.css'
 
 
 export const Home = () => {
