@@ -10,7 +10,7 @@ import { store } from './store/store';
 import { Navbar } from './components/Navbar';
 import { Cart } from './components/Cart';
 import { Profile } from './components/Profile';
-import { Home } from './components/Home';
+import { Home } from './pages/Home';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
