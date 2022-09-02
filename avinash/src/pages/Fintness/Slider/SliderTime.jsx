@@ -1,7 +1,7 @@
 import React from "react";
 import Slider from "react-slick";
-
-export default function SliderTime() {
+import "./SliderTime.css"
+export default function SimpleSlider() {
   var settings = {
     dots: true,
     infinite: true,
@@ -11,22 +11,24 @@ export default function SliderTime() {
   };
   return (
     <Slider {...settings}>
-      <div className="silder_div">
-        <h1>EXTRA 3 MONTH EXTENSION </h1>
-        <h4>on cultpass PRO</h4>
-      </div>
-
       <div>
-        <h1>EXTRA 3 MONTH EXTENSION </h1>
-        <h4>on cultpass PRO</h4>
+        <h3>1</h3>
       </div>
-
       <div>
-        <h1>EXTRA 3 MONTH EXTENSION </h1>
-        <h4>on cultpass PRO</h4>
+        <h3>2</h3>
       </div>
-
-       
+      <div>
+        <h3>3</h3>
+      </div>
+      <div>
+        <h3>4</h3>
+      </div>
+      <div>
+        <h3>5</h3>
+      </div>
+      <div>
+        <h3>6</h3>
+      </div>
     </Slider>
   );
 }
