@@ -3,29 +3,29 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import {BrowserRouter} from 'react-router-dom';
-import { Routes } from "react-router-dom";
-import { Route } from "react-router-dom";
-import reportWebVitals from './reportWebVitals';
+// import { Routes } from "react-router-dom";
+// import { Route } from "react-router-dom";
+// import reportWebVitals from './reportWebVitals';
 import { Provider } from 'react-redux';
 import { store } from './store/store';
-import { Navbar } from './components/Navbar';
-import { Cart } from './components/Cart';
-import { Profile } from './components/Profile';
-import { Home } from './pages/myHome';
-import { LabTest } from './pages/LabTest';
+import App from './App';
+// import { Navbar } from './components/Navbar';
+// import { Cart } from './components/Cart';
+// import { Profile } from './components/Profile';
+// import { Home } from './pages/myHome';
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
     <Provider store={store}>
-    <Navbar/>
+    {/* <Navbar/>
     <Routes>
        <Route exact path="/" element={<Home/>}></Route>
         <Route exact path="/cart" element={<Cart/>}></Route>
         <Route exact path="/profile" element={<Profile/>}></Route>
-        <Route exact path="/labtest" element={<LabTest/>}></Route>
-    </Routes>
+    </Routes> */}
+    <App></App>
     </Provider>
     </BrowserRouter>
   </React.StrictMode>
