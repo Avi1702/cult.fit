@@ -14,6 +14,8 @@ import { Faqs } from "../components/jsonfiles/Faqs";
 import {Faq} from "../components/Faq"
 import { senior } from "../components/jsonfiles/senior";
 import { LabTestBar } from "../components/LabTestBar";
+import { LabTestFaq } from "../components/jsonfiles/LabTestFaq";
+import { Questions } from "../components/Questions";
 export const LabTest = () => {
   const { loading, error, LabTest} = useSelector(
     (state) => state.labTest
@@ -138,6 +140,25 @@ export const LabTest = () => {
 
 
         </Box>
+
+        <Box>
+          <Typography variant="h1" sx={{color:"rgb(110,110,110)",fontWeight:"700"}}>
+          THE BEST
+          </Typography>
+          <Typography variant="h2" sx={{color:"rgb(204,204,204)",fontWeight:"700"}}>
+          DOCTOR GIVES
+          </Typography>
+          <Typography variant="h3" sx={{color:"rgb(204,204,204)",fontWeight:"700"}}>
+          THE LEAST MEDICINE
+          </Typography>
+        </Box>
+
+        <Box variant="div" sx={{width:"90%",backgroundColor:"rgb(23,26,38)", columnCount:"2", padding:"5%",columnGap:"50px",marginTop:"40px"}}>
+           {
+            LabTestFaq.map((ele)=><Questions que={ele} key={Object.keys(ele)}/>)
+           }     
+
+      </Box>
 
 
         </div>
