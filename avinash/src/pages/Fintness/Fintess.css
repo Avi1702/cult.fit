@@ -1,0 +1,139 @@
+ body{
+    background-color: black;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+ }
+ .container {
+    overflow: hidden;
+    position: relative;
+    top: -10px;
+  }
+
+
+  .try{
+   color: rgb(241,100,86);
+   padding: 10px;
+   background-color: white;
+   display: inline;
+   font-size: large;
+   margin-bottom: 30px;
+   margin-left: 400px;
+   border-radius: 10px;
+   font-style: bold;
+  }
+ 
+.price_main{
+   position:absolute;
+   top: 550px;
+   left: 300px;
+ }
+
+
+.cultpass_main{
+   margin-top: 20px;
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   gap: 20px;
+}
+
+.cultpass{
+   padding: 30px;
+   text-align: center;
+   justify-content: center;
+   border: 1px solid gray;
+   border-radius: 10px;
+   background-color: rgb(39,32,30);
+}
+
+.cultpass h2,h3{
+   color: white;
+   color: rgb(166,166,166);
+}
+
+
+/* center near */
+.center_near_flex{
+   display: flex;
+}
+.center_near{
+   height: 300px;
+   width: fit-content;
+   color: white;
+   margin-left: 100px;
+}
+
+.center_near img{
+   width: 100%;
+   height: 100%;
+}
+
+.near_info{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   background-color: rgb(47,51,54);
+}
+
+
+.near_info h3{
+   padding: 10px;
+   background-color: rgb(89,90,94);
+   border-radius: 5px;
+   color: white;
+}
+
+.banner2{
+   width: 100%;
+}
+
+
+
+/* banner info */
+.city{
+   width: 500px;
+}
+.trial_main_div{
+   display: flex;
+   justify-content:space-around;
+ }
+
+.logo_tag{
+   height: 30px;
+}
+
+.trial_main_div h1,h4{
+color: white;
+}
+
+.point_flex{
+   display: flex;
+   align-items: center;
+}
+.point_flex img{
+   height: 30px;
+}
+
+.point_image{
+   height: 500px;
+   width: 600px;
+   margin: 20px;
+   border-radius: 10px;
+}
+
+.try_free_now{
+   background-color: rgb(59,64,69);
+   color: white;
+   font-size:large;
+   padding: 10px;
+   border-radius: 10px;
+   margin-right: 10px;
+}
+
+.buy{
+   background-color:white;
+   color: rgb(242,101,93);
+   font-size:large;
+   padding: 10px;
+   border-radius: 10px;
+}
