@@ -1,8 +1,7 @@
 import React from 'react'
+import FreeTrial from "./Slider/FreeTrial"
 import "./Fintess.css"
-import FreeTrial from './Slider/FreeTrial'
-// import SliderTime from './Slider/SliderTime'
-import pricetable from "../../img/pricetable.png"
+  import pricetable from "../../img/pricetable.png"
 import downloadapp from "../../img/downloadapp.png"
 const Fintess = () => {
   return (
@@ -41,9 +40,7 @@ const Fintess = () => {
         
         </div>
 
-        <div>
-          slider
-        </div>
+        
 {/* near center */}
         <div className='center_near_flex'>
             <div className='center_near'>
@@ -214,7 +211,9 @@ const Fintess = () => {
        
 
         <img className='banner2' src="https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_1440,ar_1738:763/dpr_2/image/vm/a5077452-0ba1-469f-a9ab-3eb6429de7c2.png" alt="" />
- <img src={downloadapp} alt="" />
+       <img src={downloadapp} alt="" />
+       
+       {/* <Faq/> */}
 
 
     </>
