@@ -45,12 +45,14 @@ export const LabTest = () => {
           {/* <img src={loading} alt="loading"/> */}
 
           <LabTestBar/>
+          <Box variant="div" sx={{backgroundColor:"rgb(44,49,63)"}}>
           <img
             width="100%"
             src="https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_1440,ar_1360:150/dpr_2/image/vm/470a6641-25c1-4bf5-9efd-a9b6713d5f29.png"
             alt="ads"
           />
           <AdsSlider />
+          </Box>
           <Box
             variant="div"
             sx={{
@@ -116,7 +118,7 @@ export const LabTest = () => {
               ))}
             </Box>
           </Box>
-        <Box variant="div" sx={{width:"100%", backgroundColor:"rgb(23,26,38)"}}>
+        <Box variant="div" sx={{width:"100%", backgroundColor:"rgb(23,26,38)", paddingBottom:"20px"}}>
             <Box variant="div" sx={{width:"80%",margin:"auto",display:"flex",alignItem:"center",justifyContent:"space-between"}}>
             <Typography
               variant="h3"
@@ -142,7 +144,7 @@ export const LabTest = () => {
         </Box>
 
         <Box>
-          <Typography variant="h1" sx={{color:"rgb(110,110,110)",fontWeight:"700"}}>
+          <Typography variant="h1" sx={{color:"rgb(110,110,110)",fontWeight:"700", marginTop:"20px"}}>
           THE BEST
           </Typography>
           <Typography variant="h2" sx={{color:"rgb(204,204,204)",fontWeight:"700"}}>
