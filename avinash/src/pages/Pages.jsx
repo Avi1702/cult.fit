@@ -15,7 +15,7 @@ export const Pages=()=>{
             <Route path="/care/diagnostic-tests" element={<LabTest/>}></Route>
             <Route path="/fitness" element={<Fitness/>}></Route>
             <Route path="/care/diagnostic-tests/:name" element={<TestDetailsPage/>}></Route>
-            <Route exact path="/" element={<Home/>}></Route>
+             <Route exact path="/" element={<Home/>}></Route>
              <Route exact path="/cart" element={<Cart/>}></Route>
              <Route exact path="/profile" element={<Profile/>}></Route>
              <Route exact path="/freetrial" element={<FreeTrial/>}></Route>
