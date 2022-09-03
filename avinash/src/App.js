@@ -1,11 +1,15 @@
+import React from 'react';
 import './App.css';
-import Fintess from './pages/Fintness/Fintess.jsx';
+import './styles/myHome.css'
+// import { Navbar } from './pages/Navbar';
+import { Home } from './pages/myHome';
+import { Navbar } from './components/Navbar';
 
 function App() {
+  
   return (
-    <div>
-       <Fintess/>
-      
+    <div className='App'>
+     <Navbar/>
     </div>
   );
 }
