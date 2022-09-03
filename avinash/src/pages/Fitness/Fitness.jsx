@@ -1,9 +1,9 @@
 import React from 'react'
 import FreeTrial from "./Slider/FreeTrial"
-import "./Fintess.css"
-  import pricetable from "../../img/pricetable.png"
+import "./fitness.css"
+import pricetable from "../../img/pricetable.png"
 import downloadapp from "../../img/downloadapp.png"
-const Fintess = () => {
+const Fitness = () => {
   return (
     <>
         <div className="container">
@@ -220,4 +220,4 @@ const Fintess = () => {
   )
 }
 
-export default Fintess
+export default Fitness
