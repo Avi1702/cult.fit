@@ -11,7 +11,6 @@ import { Navbar } from './components/Navbar';
 import { Cart } from './components/Cart';
 import { Profile } from './components/Profile';
 import { Home } from './pages/myHome';
-import { LabTest } from './pages/LabTest';
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -23,7 +22,6 @@ root.render(
        <Route exact path="/" element={<Home/>}></Route>
         <Route exact path="/cart" element={<Cart/>}></Route>
         <Route exact path="/profile" element={<Profile/>}></Route>
-        <Route exact path="/labtest" element={<LabTest/>}></Route>
     </Routes>
     </Provider>
     </BrowserRouter>
