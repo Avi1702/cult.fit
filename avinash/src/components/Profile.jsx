@@ -8,7 +8,7 @@ import LoyaltyOutlinedIcon from '@mui/icons-material/LoyaltyOutlined';
 import SettingsOutlinedIcon from '@mui/icons-material/SettingsOutlined';
 import SupportAgentOutlinedIcon from '@mui/icons-material/SupportAgentOutlined';
 import LogoutOutlinedIcon from '@mui/icons-material/LogoutOutlined';
-import { logOut, getloginToDoError, getloginToDoLoading, getloginToDoSuccess} from '../store/actions';
+import { logOut, getloginToDoError, getloginToDoLoading, getloginToDoSuccess} from '../redux/Auth/actions';
 import { Navigate } from 'react-router-dom';
 import AccountCircleOutlinedIcon from '@mui/icons-material/AccountCircleOutlined';
 import VerifiedUserOutlinedIcon from '@mui/icons-material/VerifiedUserOutlined';

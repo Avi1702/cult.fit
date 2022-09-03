@@ -5,7 +5,7 @@ import CloseIcon from '@mui/icons-material/Close';
 import { useDispatch, useSelector } from 'react-redux';
 import axios from 'axios';
 import SubscriptionsOutlinedIcon from '@mui/icons-material/SubscriptionsOutlined';
-import {signupToDoError, signupToDoLoading, signupToDoSuccess, verifyToDoError, verifyToDoLoading, verifyToDoSuccess } from '../store/actions';
+import {signupToDoError, signupToDoLoading, signupToDoSuccess, verifyToDoError, verifyToDoLoading, verifyToDoSuccess } from '../redux/Auth/actions';
 
 export const Signupmodal = () => {
     const inputfieldmail={
@@ -110,7 +110,7 @@ export const Signupmodal = () => {
   });
 }
 }
-const {signtoken} = useSelector((state) => state.signup);
+const {signtoken} = useSelector((state) => state.auth.signup);
 let handleVerify=()=>{
   dispatch(verifyToDoLoading());
 axios({

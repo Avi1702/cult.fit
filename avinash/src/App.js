@@ -13,7 +13,7 @@ function App() {
   return (
     <div className='App'>
      <Navbar/>
-     <Pages></Pages>
+     <Pages/>
      {/* <Fitness></Fitness> */}
     </div>
   );

@@ -30,7 +30,7 @@ export const LabTest = () => {
       .catch((error) => dispatch(ErrorLabTest()));
   }, [dispatch]);
   return (
-    <div>
+    <div style={{backgroundColor:"white"}}>
       {loading ? (
         <img
           src={loadingimage}

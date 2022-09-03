@@ -22,7 +22,7 @@ export const TestDetailsPage = () => {
   const [openPModel,setOpenPModel]=useState(false);
  
   return (
-    <Box variant="div">
+    <Box variant="div" sx={{backgroundColor:"white",position:"relative"}}>
       <LabTestBar />
       <Box
         variant="div"

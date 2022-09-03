@@ -1,7 +1,7 @@
 import axios from 'axios';
 import React, { useEffect } from 'react'
 import {useDispatch, useSelector} from 'react-redux';
-import { getcartDoError, getcartDoSuccess, getcartLoading } from '../store/actions';
+import { getcartDoError, getcartDoSuccess, getcartLoading } from '../redux/Auth/actions';
 import IndeterminateCheckBoxOutlinedIcon from '@mui/icons-material/IndeterminateCheckBoxOutlined';
 import AddBoxOutlinedIcon from '@mui/icons-material/AddBoxOutlined';
 import { Button } from '@mui/material';
