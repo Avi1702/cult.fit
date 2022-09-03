@@ -17,14 +17,6 @@ export const reducer = (state = init, { type, payload }) => {
         error: false,
         LabTest: payload,
       }; 
-
-      case GET_TEST:
-        return {
-          ...state,
-          loading: false,
-          error: false,
-          test: payload,
-        };
       
     case LOADING_LAB_TEST:
       return {

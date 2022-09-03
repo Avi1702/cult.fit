@@ -7,13 +7,6 @@ export const getLabTest=(payload)=>{
     }
 }
 
-
-export const getTest=(payload)=>{
-    return {
-        type:GET_TEST,
-        payload
-    }
-}
 export const loadingLabTest=()=>{
     return {
         type:LOADING_LAB_TEST,
