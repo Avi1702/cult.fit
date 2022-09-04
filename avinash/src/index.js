@@ -2,28 +2,18 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import {BrowserRouter} from 'react-router-dom';
-// import { Routes } from "react-router-dom";
-// import { Route } from "react-router-dom";
-// import reportWebVitals from './reportWebVitals';
 import { Provider } from 'react-redux';
-import { store } from './store/store';
 import App from './App';
-// import { Navbar } from './components/Navbar';
-// import { Cart } from './components/Cart';
-// import { Profile } from './components/Profile';
-// import { Home } from './pages/myHome';
+//new store setup
+import {reducer} from "./store/reducer";
+import {createStore} from 'redux';
 
+const store= createStore(reducer);
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
     <Provider store={store}>
-    {/* <Navbar/>
-    <Routes>
-       <Route exact path="/" element={<Home/>}></Route>
-        <Route exact path="/cart" element={<Cart/>}></Route>
-        <Route exact path="/profile" element={<Profile/>}></Route>
-    </Routes> */}
     <App></App>
     </Provider>
     </BrowserRouter>

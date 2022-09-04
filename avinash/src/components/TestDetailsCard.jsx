@@ -4,8 +4,6 @@ import AccessTimeIcon from "@mui/icons-material/AccessTime";
 import testSvg from "../components/logo/tests.svg";
 export const TestDetailsCard=({test})=>{
 
-    console.log(test)
-
     return (<Box>
         <Card sx={{width:"400px",borderRadius:"20px", height:"500px"}}>
             <CardContent sx={{display:"flex",alignItems:"center",gap:"20px"}}>

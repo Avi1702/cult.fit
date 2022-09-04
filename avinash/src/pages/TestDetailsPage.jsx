@@ -15,15 +15,16 @@ import { LabTestBar } from "../components/LabTestBar";
 import { TestCard } from "../components/TestCard";
 import { Questions } from "../components/Questions";
 import { useState } from "react";
-import { AddPeopleModel } from "../components/AddPeopleModel";
+// import { AddPeopleModel } from "../components/AddPeopleModel";
+import { PersonalDetailsModel } from "../components/PersonalDetailsModel";
 
 export const TestDetailsPage = () => {
   const testData = JSON.parse(localStorage.getItem("labTest"));
   const [openPModel,setOpenPModel]=useState(false);
  
   return (
-    <Box variant="div">
-      <LabTestBar />
+    <Box variant="div" sx={{backgroundColor:"white",paddingTop:"20px"}}>
+      {/* <LabTestBar /> */}
       <Box
         variant="div"
         sx={{
@@ -268,7 +269,11 @@ export const TestDetailsPage = () => {
 
       </Box>
 
-      <AddPeopleModel open={openPModel} setOpen={setOpenPModel}/>
+      <PersonalDetailsModel open={openPModel} setOpen={setOpenPModel} 
+      test_name={testData.title}
+       test_image={testData.image} 
+       price={testData.offerPrice}
+      />
     </Box>
   );
 };

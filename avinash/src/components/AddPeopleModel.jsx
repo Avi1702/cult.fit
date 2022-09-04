@@ -22,7 +22,8 @@ const style = {
   p: 3,
 };
 
-export const AddPeopleModel = ({ open, setOpen }) => {
+export const AddPeopleModel = ({ open, setOpen, price, test_name, test_image }) => {
+  console.log("Data: is :",price, test_name, test_image);
   const colorArray = [
     "DodgerBlue",
     "Tomato",
@@ -32,15 +33,6 @@ export const AddPeopleModel = ({ open, setOpen }) => {
   ];
   const [openPerModel, setOpenPerModel] = React.useState(false);
   const [people, setPeople] = useState([]);
-
-  useEffect(() => {
-    axios({
-      method: "get",
-      url: "http://localhost:8058/personalDetails",
-    })
-      .then((res) => setPeople(res.data))
-      .catch((error) => console.log(error));
-  }, []);
 
   return (
     <div>
