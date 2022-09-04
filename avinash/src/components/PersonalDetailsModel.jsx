@@ -30,14 +30,15 @@ const style = {
   p: 3,
 };
 
-export const PersonalDetailsModel = ({ open, setOpen }) => {
+export const PersonalDetailsModel = ({ open, setOpen, price, test_name, test_image}) => {
+  const token=window.localStorage.getItem("culttoken");
   const [save, setSave] = useState(false);
-
   const [checked, setChecked] = useState(false);
   const [gValue, setGValue] = useState("");
   const [name, setName] = useState("");
   const [bDate, setBDate] = useState("");
-
+  const [sDate, setSDate] = useState("");
+  
   React.useEffect(() => {
     if (checked && gValue && name && bDate) {
 
@@ -46,20 +47,29 @@ export const PersonalDetailsModel = ({ open, setOpen }) => {
   }, [checked, gValue, name, bDate]);
 
   const handleSave=()=>{
-    // const data={
-    //       name,
-    //       birthDate:bDate,
-    //       gender:gValue
-    //     }
     axios({
       method:'POST',
-      url:'http://localhost:8058/personalDetails',
+      url:'http://localhost:7000/addtest',
       data:{
-        name,
-        birthDate:bDate,
-        gender:gValue
+        patient_name:name,
+        date_of_birth:bDate,
+        schedule_date:sDate,
+        gender:gValue,
+        price,
+        test_name,
+        test_image
       },
-    });
+      headers: {
+        authtoken:token,
+      },
+     }).then((res) => {
+        alert(res.data.message);
+        //localStorage.setItem("cultuser", JSON.stringify(res.data));
+      })
+      .catch((err) => {
+        alert(err.response.data.message);
+        // dispatch(getloginToDoError());
+      });
 
   }
 
@@ -112,7 +122,7 @@ export const PersonalDetailsModel = ({ open, setOpen }) => {
 
             <TextField
               id="date"
-              label="Birthday"
+              label="Date of Birth"
               type="date"
               sx={{ width: "45%" }}
               InputLabelProps={{
@@ -122,6 +132,19 @@ export const PersonalDetailsModel = ({ open, setOpen }) => {
               
               value={bDate}
               onChange={(event) => setBDate(event.target.value)}
+            />
+              <TextField
+              id="schedule date"
+              label="Schedule date"
+              type="date"
+              sx={{ width: "45%" }}
+              InputLabelProps={{
+                shrink: true,
+              }}
+              variant="standard"
+              
+              value={sDate}
+              onChange={(event) => setSDate(event.target.value)}
             />
           </Box>
           <Box variant="div">

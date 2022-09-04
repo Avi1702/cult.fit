@@ -15,6 +15,9 @@ import {
   GETCART_LOADING,
   GETCART_SUCCESS,
   GETCART_ERROR,
+  GET_LAB_TEST,
+  LOADING_LAB_TEST,
+  ERROR_LAB_TEST
 } from "./actionTypes";
 
 const initialState = {
@@ -44,9 +47,44 @@ const initialState = {
     cart: [],
     grandtotal:0
   },
+  labtest:{
+    loading: false,
+    error: false,
+    labtests: [],
+  }
 };
 export const reducer = (state = initialState, action) => {
   switch (action.type) {
+    case GET_LAB_TEST:
+      return {
+        ...state,
+        labtest:{
+          ...state.labtest,
+          loading: false,
+          error: false,
+          labtests:action.payload
+        },
+        
+      }; 
+    case LOADING_LAB_TEST:
+      return {
+        ...state,
+        labtest:{
+          ...state.labtest,
+          loading: true,
+          error: false,
+        },
+      };
+    case ERROR_LAB_TEST:
+      return {
+        ...state,
+        labtest:{
+          ...state.labtest,
+          loading: false,
+          error:true,
+        },
+      };
+
     case SIGNUP_TODO_LOADING:
       return {
         ...state,

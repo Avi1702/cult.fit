@@ -88,8 +88,8 @@ export const Loginmodal = () => {
     onClick={openModal}
     sx={{
       color:"white",
-      fontSize:"30px",
-      marginRight:'25px'
+      color:"white",
+      fontSize:"30px"
     }}
     />
     <Modal

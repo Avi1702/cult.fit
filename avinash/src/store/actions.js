@@ -16,6 +16,9 @@ import {
   GETCART_LOADING,
   GETCART_SUCCESS,
   GETCART_ERROR,
+  GET_LAB_TEST,
+  LOADING_LAB_TEST,
+  ERROR_LAB_TEST,
 } from "./actionTypes";
 
 export const signupToDoLoading = () => {
@@ -98,6 +101,24 @@ export const getcartDoError = () => {
     type: GETCART_ERROR,
   };
 };
+export const getLabTest=(payload)=>{
+  return {
+      type:GET_LAB_TEST,
+      payload
+  }
+}
+
+export const loadingLabTest=()=>{
+  return {
+      type:LOADING_LAB_TEST,
+  }
+}
+export const ErrorLabTest=()=>{
+  return {
+      type:ERROR_LAB_TEST,
+  }
+}
+
 export const logOut = () => {
   return{
     type: LOGOUT,

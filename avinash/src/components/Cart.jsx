@@ -80,7 +80,7 @@ export const Cart = () => {
      useEffect(() => {
       getCart();
      }, []);
-console.log(cart);
+
   return (
     <>
     {token?(<>

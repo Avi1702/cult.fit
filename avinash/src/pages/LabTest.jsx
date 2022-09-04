@@ -7,30 +7,31 @@ import {
   ErrorLabTest,
   getLabTest,
   loadingLabTest,
-} from "../redux/LabTest/action";
+} from "../store/actions";
 import axios from "axios";
 import { LabTestCard } from "../components/LabTestCard";
 import { Faqs } from "../components/jsonfiles/Faqs";
 import {Faq} from "../components/Faq"
 import { senior } from "../components/jsonfiles/senior";
-import { LabTestBar } from "../components/LabTestBar";
+// import { LabTestBar } from "../components/LabTestBar";
 export const LabTest = () => {
-  const { loading, error, LabTest} = useSelector(
-    (state) => state.labTest
-  );
+  const { loading, labtests} = useSelector((state) => state.labtest);
   const dispatch = useDispatch();
-
+ 
   useEffect(() => {
     dispatch(loadingLabTest());
     axios({
       method: "get",
-      url: "http://localhost:8058/labTest",
+      url: "http://localhost:7000/labTest",
     })
       .then((res) => dispatch(getLabTest(res.data)))
       .catch((error) => dispatch(ErrorLabTest()));
-  }, [dispatch]);
+  }, []);
+
   return (
-    <div>
+    <div style={{
+      backgroundColor:"white"
+    }}>
       {loading ? (
         <img
           src={loadingimage}
@@ -42,7 +43,7 @@ export const LabTest = () => {
         <div style={{ overflow: "hidden" }}>
           {/* <img src={loading} alt="loading"/> */}
 
-          <LabTestBar/>
+          {/* <LabTestBar/> */}
           <img
             width="100%"
             src="https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_1440,ar_1360:150/dpr_2/image/vm/470a6641-25c1-4bf5-9efd-a9b6713d5f29.png"
@@ -83,10 +84,10 @@ export const LabTest = () => {
                 gap: "20px",
                 marginTop: "30px",
                 rowGap: "50px",
-                
+                backgroundColor:"white"
               }}
             >
-              {LabTest.map((ele) => (
+              {labtests.map((ele) => (
                 <LabTestCard labTest={ele} key={ele._id} />
               ))}
             </Box>
