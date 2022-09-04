@@ -1,7 +1,7 @@
 import axios from 'axios';
 import React, { useEffect } from 'react'
 import {useDispatch, useSelector} from 'react-redux';
-import { getcartDoError, getcartDoSuccess, getcartLoading } from '../store/actions';
+import { getcartDoError, getcartDoSuccess, getcartLoading, gettestError, gettestLoading, gettestSuccess } from '../store/actions';
 import IndeterminateCheckBoxOutlinedIcon from '@mui/icons-material/IndeterminateCheckBoxOutlined';
 import AddBoxOutlinedIcon from '@mui/icons-material/AddBoxOutlined';
 import { Button } from '@mui/material';
@@ -9,6 +9,8 @@ import '../styles/cart.css'
 export const Cart = () => {
     
     const {cart,grandtotal} = useSelector((state) => state.cart)
+    const {test,Test_Grandtotal} = useSelector((state) => state.tests);
+    let sum=grandtotal+Test_Grandtotal;
     const token=window.localStorage.getItem("culttoken");
     const dispatch=useDispatch();
     let getCart=()=>{
@@ -24,6 +26,21 @@ export const Cart = () => {
     })
     .catch((err) => {
       dispatch(getcartDoError());
+    });
+    }
+    let getTests=()=>{
+      dispatch(gettestLoading());
+    axios({
+    method: "get",
+    url: "http://localhost:7000/gettest",
+    headers: {
+      authtoken:token,
+    },
+    }).then((res) => {
+      dispatch(gettestSuccess(res.data));
+    })
+    .catch((err) => {
+      dispatch(gettestError());
     });
     }
     let handleIncrement = (a,b) => {
@@ -77,26 +94,50 @@ export const Cart = () => {
                   })
                   .catch((err) => console.log(err));
         } 
+        let testRemove = (a,b) => {
+          axios({
+                  method: "delete",
+                  url: "http://localhost:7000/removetest",
+                  data: {
+                    test_name:a,
+                    patient_name:b
+                  },
+                  headers: {
+                    authtoken:token,
+                  },
+                })
+                  .then((res) => {
+                    getTests();
+                  })
+                  .catch((err) => console.log(err));
+        } 
      useEffect(() => {
       getCart();
+      getTests();
      }, []);
 
   return (
-    <>
-    {token?(<>
+  <div>
+  <div style={{color:"white",textAlign:"center", width:"100%",backgroundColor:"black",padding:"10px",marginTop:"0px",display:"flex",overflow:"auto"}}>
+    <p style={{width:"50%",marginTop:"0px",marginBottom:"0px"}}>PRODUCTS</p>
+    <p style={{width:"50%",marginTop:"0px",marginBottom:"0px"}}>LAB TESTS</p>
+  </div>
   <div style={{
   borderRight:"2px solid silver",
   width:"50%",
-  height:"90vh",
-  marginLeft:"3vw",
-  marginRight:"auto",
+  height:"70vh",
+  marginLeft:"0px",
+  marginRight:"0px",
   marginTop:"0px",
-  overflow:"auto"
+  overflowY:"auto",
+  overflowX:"hidden",
   }}>
+  
+  
     {cart.map((el)=>{return<>
-    <div style={{border:"2px solid silver",width:"90%",marginLeft:"auto",marginRight:"auto",marginTop:"20px",color:"black",display:"flex",padding:"1vw"}}>
+    <div style={{border:"2px solid silver",width:"80%",marginLeft:"auto",marginRight:"auto",marginTop:"10px",color:"white",display:"flex",padding:".5vw"}}>
       <div
-      style={{height:"150px"}}>
+      style={{height:"85px"}}>
         <img 
         style={{height:"100%",aspectRatio:"4/5"}}
         alt=''
@@ -104,14 +145,14 @@ export const Cart = () => {
         />
       </div>
       <div style={{paddingLeft:"2vw",marginTop:"0px",width:"100%"}}>
-        <p style={{marginTop:"0px"}}>{el.product_name}</p>
-        <p style={{marginTop:"0px"}}>Price: ₹{el.price}</p>
-        <p style={{marginTop:"0px"}}>Total: ₹{el.price*el.quantity}</p>
+        <p style={{marginTop:"0px",marginBottom:"0px"}}>{el.product_name}</p>
+        <p style={{marginTop:"0px",marginBottom:"0px"}}>Price: ₹{el.price}</p>
+        <p style={{marginTop:"0px",marginBottom:"0px"}}>Total: ₹{el.price*el.quantity}</p>
         {/* <p style={{marginTop:"0px"}}>Quantity: {el.quantity}</p> */}
-        <div style={{paddingLeft:"0",marginTop:"0px",marginBottom:"0px",display:"flex",overflow:"auto",width:"100%"}}>
+        <div style={{paddingLeft:"0",marginTop:"0px",marginBottom:"0px",display:"flex",width:"100%"}}>
         <IndeterminateCheckBoxOutlinedIcon
         sx={{
-          color:"black",
+          color:"white",
           height:"2vw",
           cursor:"pointer"
         }}
@@ -121,12 +162,15 @@ export const Cart = () => {
         />
         <Button 
         sx={{
-          color:"black",
+          color:"white",
           height:"2vw",
           border:"1px solid silver",
           fontSize:"1vw",
           marginRight:"1vw",
-          marginLeft:"1vw"
+          marginLeft:"1vw",
+          '&:hover':{
+            color:"white"
+          }
         }}
         variant="solid"
         
@@ -136,19 +180,22 @@ export const Cart = () => {
           handleIncrement(el.quantity,el.product_name);
         }}
         sx={{
-          color:"black",
+          color:"white",
           height:"2vw",
           cursor:"pointer"
         }}
         />
         <Button 
         sx={{
-          color:"black",
+          color:"white",
           height:"2vw",
           border:"1px solid silver",
           fontSize:"1vw",
           marginRight:"0px",
-          marginLeft:"auto"
+          marginLeft:"auto",
+          '&:hover':{
+            color:"white"
+          }
         }}
         variant="solid"
         onClick={() => {
@@ -161,24 +208,85 @@ export const Cart = () => {
         </>
     })}
 </div>
-<div style={{width:"30%",border:"2px solid silver",padding:"20px",borderRadius:"5px",textAlign:"center",marginLeft:"auto",marginRight:"7vw",marginTop:"-87.25vh",color:"black",position:"sticky",overflow:"auto"}}>
-<p>Grand Total: ₹{grandtotal}</p>
+<div style={{
+  width:"50%",
+  height:"70vh",
+  marginLeft:"auto",
+  marginRight:"0px",
+  marginTop:"-69.95vh",
+  overflowY:"auto",
+  overflowX:"hidden",
+  }}>
+  
+    {test.map((el)=>{return<>
+    <div style={{border:"2px solid silver",width:"80%",marginLeft:"auto",marginRight:"auto",marginTop:"10px",color:"white",display:"flex",padding:".5vw"}}>
+      <div
+      style={{height:"120px"}}>
+        <img 
+        style={{height:"100%",aspectRatio:"4/5"}}
+        alt=''
+        src={el.test_image}
+        />
+      </div>
+      <div style={{paddingLeft:"2vw",marginTop:"0px",width:"100%"}}>
+        <p style={{marginTop:"0px",marginBottom:"0px"}}>{el.test_name}</p>
+        <p style={{marginTop:"0px",marginBottom:"0px"}}>For: {el.patient_name}</p>
+        <p style={{marginTop:"0px",marginBottom:"0px"}}>Date: {el.schedule_date}</p>
+        <p style={{marginTop:"0px",marginBottom:"0px"}}>Price: ₹{el.price}</p>
+        <div style={{paddingLeft:"0",marginTop:"0px",marginBottom:"0px",display:"flex",width:"100%"}}>
+        <Button 
+        sx={{
+          color:"white",
+          height:"2vw",
+          border:"1px solid silver",
+          fontSize:"1vw",
+          margin:"5px",
+          '&:hover':{
+            color:"white"
+          }
+        }}
+        variant="solid"
+        onClick={() => {
+          testRemove(el.test_name, el.patient_name);
+        }}
+        >Remove</Button>
+        </div>
+      </div>
+    </div>
+        </>
+    })}
+</div>
+<div style={{borderTop:"3px solid silver",padding:"20px",textAlign:"center",marginLeft:"auto",marginRight:"auto",marginTop:"0px",color:"white",display:"flex"}}>
+<div >
+<p>Total for Products: ₹{grandtotal}</p>
+<p>Total for Lab Tests: ₹{Test_Grandtotal}</p>
+</div>
+<div
+style={{
+  marginRight:"50px",
+  marginLeft:"auto"
+  }}>
+<p>Grand Total: ₹{sum}</p>
 <Button
 sx={{
-  color:"black",
+  color:"white",
   height:"2vw",
   border:"1px solid silver",
   fontSize:"1vw",
   marginRight:"0px",
-  marginLeft:"auto"
+  marginLeft:"auto",
+  '&:hover':{
+    color:"white"
+  }
 }}
 variant="solid"
 >Checkout</Button>
 </div>
+</div>
 
-</>):(<>
+{/* </>):(<>
     <h2 style={{textAlign:"center"}}>PLEASE LOGIN FIRST.</h2>
-    </>)}
-    </>
+    </>)} */}
+    </div>
   )
 }

@@ -17,7 +17,10 @@ import {
   GETCART_ERROR,
   GET_LAB_TEST,
   LOADING_LAB_TEST,
-  ERROR_LAB_TEST
+  ERROR_LAB_TEST,
+  TEST_LOADING,
+  TEST_SUCCESS,
+  TEST_ERROR
 } from "./actionTypes";
 
 const initialState = {
@@ -51,10 +54,44 @@ const initialState = {
     loading: false,
     error: false,
     labtests: [],
+  },
+  tests:{
+    loading: false,
+    error: false,
+    test: [],
+    Test_Grandtotal:0
   }
 };
 export const reducer = (state = initialState, action) => {
   switch (action.type) {
+    case TEST_LOADING:
+      return {
+        ...state,
+        tests: {
+          ...state.tests,
+          loading: true,
+        },
+      };
+    case TEST_SUCCESS:
+      return {
+        ...state,
+        tests: {
+          ...state.tests,
+          loading: false,
+          error: false,
+          test:action.payload.cart,
+          Test_Grandtotal:action.payload.Test_Grandtotal
+        },
+      };
+    case TEST_ERROR:
+      return {
+        ...state,
+        tests: {
+          ...state.tests,
+          loading: false,
+          error: true,
+        },
+      };
     case GET_LAB_TEST:
       return {
         ...state,

@@ -23,4 +23,8 @@ export const GET_LAB_TEST="GET_LAB_TEST";
 export const LOADING_LAB_TEST="LOADING_LAB_TEST";
 export const ERROR_LAB_TEST="ERROR_LAB_TEST";
 
+export const TEST_LOADING="TEST_LOADING";
+export const TEST_SUCCESS="TEST_SUCCESS";
+export const TEST_ERROR="TEST_ERROR";
+
 export const LOGOUT="LOGOUT";

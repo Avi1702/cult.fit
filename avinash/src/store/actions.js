@@ -19,6 +19,9 @@ import {
   GET_LAB_TEST,
   LOADING_LAB_TEST,
   ERROR_LAB_TEST,
+  TEST_LOADING,
+  TEST_SUCCESS,
+  TEST_ERROR,
 } from "./actionTypes";
 
 export const signupToDoLoading = () => {
@@ -101,6 +104,24 @@ export const getcartDoError = () => {
     type: GETCART_ERROR,
   };
 };
+
+export const gettestLoading = () => {
+  return {
+    type: TEST_LOADING,
+  };
+};
+export const gettestSuccess = (payload) => {
+  return {
+    type: TEST_SUCCESS,
+    payload,
+  };
+};
+export const gettestError = () => {
+  return {
+    type: TEST_ERROR,
+  };
+};
+
 export const getLabTest=(payload)=>{
   return {
       type:GET_LAB_TEST,
