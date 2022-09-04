@@ -15,6 +15,7 @@ import {Faq} from "../components/Faq"
 import { senior } from "../components/jsonfiles/senior";
 import { Questions } from "../components/Questions";
 import { LabTestFaq } from "../components/jsonfiles/LabTestFaq";
+import { LabTestBar } from "../components/LabTestBar";
 // import { LabTestBar } from "../components/LabTestBar";
 export const LabTest = () => {
   const { loading, labtests} = useSelector((state) => state.labtest);
@@ -35,23 +36,30 @@ export const LabTest = () => {
       backgroundColor:"white"
     }}>
       {loading ? (
-        <img
+        <div style={{width:"100%", textAlign:"center"}}>
+          <img
           src={loadingimage}
           alt="loading"
           width="10%"
           style={{ marginTop: "15%" }}
         />
+
+        </div>
+        
       ) : (
         <div style={{ overflow: "hidden" }}>
           {/* <img src={loading} alt="loading"/> */}
 
-          {/* <LabTestBar/> */}
+          <LabTestBar/>
+          <Box variant="div" sx={{backgroundColor:"rgb(44,49,63)"}}>
           <img
             width="100%"
             src="https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_1440,ar_1360:150/dpr_2/image/vm/470a6641-25c1-4bf5-9efd-a9b6713d5f29.png"
             alt="ads"
+            style={{marginTop:"120px"}}
           />
           <AdsSlider />
+          </Box>
           <Box
             variant="div"
             sx={{

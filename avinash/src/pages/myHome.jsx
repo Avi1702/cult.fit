@@ -69,8 +69,8 @@ export const Home = () => {
                                        {/* part-3 */}
 
        <div className='pinkish_effect'>
-       <h1 style={{color:"white",fontSize:"50px"}}>Cult Pass</h1>
-      <h5 style={{color:"#337ab7"}}>LEARN MORE</h5>
+       <h1 style={{color:"white",fontSize:"60px",textAlign:"center",letterSpacing:"2px"}}>cultpass</h1>
+      <h5 style={{color:"#337ab7",textAlign:"center"}}>LEARN MORE</h5>
 
      <div id="parent">
       <div>
@@ -173,7 +173,7 @@ export const Home = () => {
     <div className="screenshot pinkish_effect"><img className="thumbnail" src={cult1}></img></div>
     <div className="screenshot pinkish_effect"><img className="thumbnail"  src={cult2}></img></div>
     <div className="screenshot greenish"><img className="thumbnail"  src={cult3}></img></div>
-    <h1 style={{fontSize:"80px",color:"white",marginTop:"-10px"}}>Join the cult family</h1>
+    <h1 style={{fontSize:"80px",color:"white",marginTop:"-10px", textAlign:"center"}}>Join the cult family</h1>
     <div className='join_cult_family '>
       <div><img className='thumbnail' src={cult4}></img></div>
       <div><img className='thumbnail' src={cult5}></img></div>
