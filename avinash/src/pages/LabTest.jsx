@@ -7,12 +7,14 @@ import {
   ErrorLabTest,
   getLabTest,
   loadingLabTest,
-} from "../store/actions";
+} from "../redux/auth/actions";
 import axios from "axios";
 import { LabTestCard } from "../components/LabTestCard";
 import { Faqs } from "../components/jsonfiles/Faqs";
 import {Faq} from "../components/Faq"
 import { senior } from "../components/jsonfiles/senior";
+import { Questions } from "../components/Questions";
+import {LabTestFaq} from "../components/jsonfiles/LabTestFaq"
 // import { LabTestBar } from "../components/LabTestBar";
 export const LabTest = () => {
   const { loading, labtests} = useSelector((state) => state.labtest);
@@ -50,7 +52,7 @@ export const LabTest = () => {
             alt="ads"
           />
           <AdsSlider />
-          </Box>
+       
           <Box
             variant="div"
             sx={{
@@ -157,12 +159,11 @@ export const LabTest = () => {
            {
             LabTestFaq.map((ele)=><Questions que={ele} key={Object.keys(ele)}/>)
            }     
-
       </Box>
 
 
-        </div>
+      </div>
       )}
     </div>
   );
-};
+}

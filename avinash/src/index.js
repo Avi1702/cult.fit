@@ -5,19 +5,19 @@ import {BrowserRouter} from 'react-router-dom';
 import { Provider } from 'react-redux';
 import App from './App';
 //new store setup
-import {reducer} from "./store/reducer";
+import {reducer} from "./redux/Auth/reducer";
 import {createStore} from 'redux';
 
 const store= createStore(reducer);
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <React.StrictMode>
+
     <BrowserRouter>
     <Provider store={store}>
     <App></App>
     </Provider>
     </BrowserRouter>
-  </Provider>
+
 );
 
 // If you want to start measuring performance in your app, pass a function
