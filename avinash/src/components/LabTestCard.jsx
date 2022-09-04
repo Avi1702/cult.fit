@@ -12,7 +12,6 @@ export const LabTestCard = ({ labTest }) => {
   const handleClick=()=>{
     localStorage.setItem("labTest",JSON.stringify(labTest));
   }
-  //   console.log(labTest)
   return (
     <Link to={`/care/diagnostic-tests/${(labTest.title).split(" ").join("-")}`} style={{textDecoration:"none"}}>
       <Card
@@ -24,8 +23,9 @@ export const LabTestCard = ({ labTest }) => {
           boxShadow: "none",
           border: "none",
           "&:hover": {
-            transform: "scale(0.97)",
-            boxShadow: "0 3px 6px #d3d3d3",
+          transform: "scale(0.97)",
+          boxShadow: "0 3px 6px #d3d3d3",
+          
           },
         }}
       >

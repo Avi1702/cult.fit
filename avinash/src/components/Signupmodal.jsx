@@ -135,10 +135,9 @@ data: {
     <SubscriptionsOutlinedIcon
     onClick={openModal}
     sx={{
-      color:"white",
-      fontSize:"27.5px",
-      marginLeft:'25px',
-      marginRight:'25px'
+        color:"white",
+        fontSize:"30px",
+        marginRight:'25px'
     }}
     />
     <Modal

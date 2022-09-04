@@ -5,7 +5,8 @@ import CloseIcon from '@mui/icons-material/Close';
 import LoginOutlinedIcon from '@mui/icons-material/LoginOutlined';
 import { useDispatch} from 'react-redux';
 import axios from 'axios';
-import {loginToDoError, loginToDoLoading, loginToDoSuccess} from '../redux/Auth/actions';
+import {loginToDoError, loginToDoLoading, loginToDoSuccess} from '../store/actions';
+import zIndex from '@mui/material/styles/zIndex';
 
 export const Loginmodal = () => {
     const inputfieldmail={
@@ -88,8 +89,8 @@ export const Loginmodal = () => {
     onClick={openModal}
     sx={{
       color:"white",
-      fontSize:"30px",
-      marginRight:'25px'
+      color:"white",
+      fontSize:"30px"
     }}
     />
     <Modal
