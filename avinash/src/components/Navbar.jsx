@@ -12,7 +12,7 @@ export const Navbar = () => {
   let tok=window.localStorage.getItem("culttoken")
   return (
     <>
-    <div style={{maxHeight:"60px",backgroundColor:"#15171C",maxWidth:"100%",display:"flex",overflow:"auto",paddingTop:"15px",paddingBottom:"15px",paddingRight:"30px",paddingLeft:"30px"}}>
+    <div style={{maxHeight:"60px",backgroundColor:"#15171C",background:"transparent",maxWidth:"100%",display:"flex",overflow:"auto",paddingTop:"15px",paddingBottom:"15px",paddingRight:"30px",paddingLeft:"30px"}}>
     <img 
     style={{height:"30px",width:"120px"}}
     alt=''
@@ -24,7 +24,7 @@ export const Navbar = () => {
       marginRight:"auto"
     }}
     >
-      <NavLink to="/care/diagnostic-tests"
+      <NavLink to="/fitness"
       style={{textDecoration:"none"}}
       >
       <Button
@@ -48,6 +48,7 @@ export const Navbar = () => {
         Fitness
       </Button>
       </NavLink>
+      <NavLink to="/care/diagnostic-tests">
       <Button
       variant="solid"
       sx={{
@@ -68,6 +69,7 @@ export const Navbar = () => {
       >
         Care
       </Button>
+      </NavLink>
       <Button
       variant="solid"
       sx={{
