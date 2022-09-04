@@ -13,6 +13,8 @@ import { LabTestCard } from "../components/LabTestCard";
 import { Faqs } from "../components/jsonfiles/Faqs";
 import {Faq} from "../components/Faq"
 import { senior } from "../components/jsonfiles/senior";
+import { Questions } from "../components/Questions";
+import { LabTestFaq } from "../components/jsonfiles/LabTestFaq";
 // import { LabTestBar } from "../components/LabTestBar";
 export const LabTest = () => {
   const { loading, labtests} = useSelector((state) => state.labtest);
@@ -115,7 +117,7 @@ export const LabTest = () => {
               ))}
             </Box>
           </Box>
-        <Box variant="div" sx={{width:"100%", backgroundColor:"rgb(23,26,38)"}}>
+        <Box variant="div" sx={{width:"100%", backgroundColor:"rgb(23,26,38)",paddingBottom:"20px"}}>
             <Box variant="div" sx={{width:"80%",margin:"auto",display:"flex",alignItem:"center",justifyContent:"space-between"}}>
             <Typography
               variant="h3"
@@ -139,6 +141,24 @@ export const LabTest = () => {
 
 
         </Box>
+
+        <Box>
+          <Typography variant="h1" sx={{color:"rgb(110,110,110)",fontWeight:"700", marginTop:"20px"}}>
+          THE BEST
+          </Typography>
+          <Typography variant="h2" sx={{color:"rgb(204,204,204)",fontWeight:"700"}}>
+          DOCTOR GIVES
+          </Typography>
+          <Typography variant="h3" sx={{color:"rgb(204,204,204)",fontWeight:"700"}}>
+          THE LEAST MEDICINE
+          </Typography>
+        </Box>
+
+        <Box variant="div" sx={{width:"90%",backgroundColor:"rgb(23,26,38)", columnCount:"2", padding:"5%",columnGap:"50px",marginTop:"40px"}}>
+           {
+            LabTestFaq.map((ele)=><Questions que={ele} key={Object.keys(ele)}/>)
+           }     
+      </Box>
 
 
         </div>
