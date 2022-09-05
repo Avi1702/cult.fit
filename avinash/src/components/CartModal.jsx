@@ -6,7 +6,7 @@ import ClearRoundedIcon from "@mui/icons-material/ClearRounded";
 // import { PersonalDetailsModel } from "./PersonalDetailsModel";
 import { useEffect } from "react";
 import axios from "axios";
-import { Button } from '@mui/material';
+// import { Button } from '@mui/material';
 // import { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import {
@@ -17,7 +17,7 @@ import {
   gettestLoading,
   gettestSuccess,
 } from "../store/actions";
-// import PermIdentityRoundedIcon from "@mui/icons-material/PermIdentityRounded";
+import PermIdentityRoundedIcon from "@mui/icons-material/PermIdentityRounded";
 
 const style = {
   position: "fixed",
@@ -178,7 +178,7 @@ export const CartModel = ({ open, setOpen }) => {
           </Typography>
         </Box>
   
-        {test.map((el)=>{return<>
+        {/* {test.map((el)=>{return<>
     <div style={{border:"1px solid silver",
     cursor:"pointer",
     width:"85%",
@@ -240,8 +240,8 @@ sx={{
   }
 }}
 variant="solid"
->Checkout</Button>
-</div>
+>Checkout</Button> */}
+{/* </div> */}
 
         <Box
           variant="div"

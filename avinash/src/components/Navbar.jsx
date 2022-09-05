@@ -153,7 +153,7 @@ export const Navbar = () => {
                   }}
                 />
               </NavLink>
-              {/* <NavLink to="/cart"> */}
+           
                 <AddShoppingCartIcon
                   sx={{
                     color: "white",
@@ -161,7 +161,6 @@ export const Navbar = () => {
                   }}
                   onClick={()=>setOpen(!open)}
                 />
-              {/* </NavLink> */}
 
               
             </>

@@ -85,7 +85,6 @@ export const PersonalDetailsModel = ({ open, setOpen, price, test_name, test_ima
               alignItems: "center",
               justifyContent: "space-between",
               color: "rgb(51,51,51)",
-             
             }}
           >
             <Typography variant="h6" component="h1" sx={{ fontWeight: "700" }}>
