@@ -18,6 +18,7 @@ import {
   gettestSuccess,
 } from "../store/actions";
 import PermIdentityRoundedIcon from "@mui/icons-material/PermIdentityRounded";
+import Payment from "../pages/Payment";
 
 const style = {
   position: "fixed",
@@ -417,6 +418,7 @@ variant="solid"
             >
               TOTAL {"\u20B9"} {Test_Grandtotal} PROCEED
             </Button>
+            
           )}
         </Box>
       </Box>

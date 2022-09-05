@@ -7,13 +7,15 @@ import { Navbar } from './components/Navbar';
 // import Fitness from './pages/Fitness/Fitness.jsx';
 import { Pages } from './pages/Pages';
 import {Footer} from './components/Footer'
-// import Fintess from './pages/Fitness/Fitness';
+import { Checkout } from './pages/Checkout';
+import Payment from './pages/Payment';
 
 function App() {
   
   return (
     <div className='App'>
      <Navbar/>
+     <Payment></Payment>
      <Pages/>
      <Footer/>
     
