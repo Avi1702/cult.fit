@@ -7,6 +7,7 @@ import axios from 'axios';
 import SubscriptionsOutlinedIcon from '@mui/icons-material/SubscriptionsOutlined';
 import {signupToDoError, signupToDoLoading, signupToDoSuccess, verifyToDoError, verifyToDoLoading, verifyToDoSuccess } from '../store/actions';
 
+
 export const Signupmodal = () => {
     const inputfieldmail={
             width:"90%",
@@ -35,8 +36,10 @@ export const Signupmodal = () => {
           flexDirection:"column",
           backgroundColor:'rgb(0, 0, 0)',
           borderRadius:'6px',
+          position:"absolute",
           top: '50%',
           left: '50%',
+          zIndex:"15",
           right: 'auto',
           bottom: 'auto',
           marginRight: '-60%',
@@ -147,11 +150,13 @@ data: {
       style={customStyles}
       contentLabel="Example Modal"
     >
+
       <CloseIcon 
       sx={{
         marginLeft:"auto",
         marginRight:"5px",
         position:"relative",
+        zIndex:"15",
         color:"white",
         '&:hover': {
             color: "gray",

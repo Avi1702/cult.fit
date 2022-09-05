@@ -23,8 +23,10 @@ export const TestDetailsPage = () => {
   const [openPModel,setOpenPModel]=useState(false);
  
   return (
-    <Box variant="div" sx={{backgroundColor:"white",paddingTop:"20px"}}>
-      {/* <LabTestBar /> */}
+    <Box variant="div">
+      <LabTestBar />
+
+    <Box variant="div" sx={{backgroundColor:"white",paddingTop:"120px"}}>
       <Box
         variant="div"
         sx={{
@@ -274,6 +276,7 @@ export const TestDetailsPage = () => {
        test_image={testData.image} 
        price={testData.offerPrice}
       />
+    </Box>
     </Box>
   );
 };

@@ -12,7 +12,7 @@ import FreeTrial from './Fitness/Slider/FreeTrial';
 export const Pages=()=>{
     return(<div>
         <Routes>
-            <Route path="/care/diagnostic-tests" element={<LabTest/>}></Route>
+            <Route path="/care/diagnostic-tests" element={<LabTest title="care"/>}></Route>
             <Route path="/fitness" element={<Fitness/>}></Route>
             <Route path="/care/diagnostic-tests/:name" element={<TestDetailsPage/>}></Route>
             <Route exact path="/" element={<Home/>}></Route>
