@@ -156,6 +156,7 @@ export const Navbar = () => {
                   sx={{
                     color: "white",
                     fontSize: "30px",
+                    cursor:"pointer"
                   }}
                   onClick={()=>setOpen(!open)}
                 />
