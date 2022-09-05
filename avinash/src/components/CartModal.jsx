@@ -18,12 +18,13 @@ import {
   gettestSuccess,
 } from "../store/actions";
 import PermIdentityRoundedIcon from "@mui/icons-material/PermIdentityRounded";
+import { Link } from "react-router-dom";
 
 const style = {
   position: "fixed",
   top: "65px",
   right: "0.5%",
-  width: "30vw",
+  width: "350px",
   height: "78vh",
   padding: "10px",
   backgroundColor: "rgb(23,26,38)",
@@ -345,7 +346,7 @@ variant="solid"
                     color: "#8f8f8f",
                   }}
                 >
-                  1 Tests
+                  Price
                 </Typography>
                 <Box
                   variant="span"
@@ -355,16 +356,7 @@ variant="solid"
                     gap: "10px",
                   }}
                 >
-                  <Typography
-                    variant="span"
-                    sx={{
-                      fontWeight: "500",
-                      textDecoration: "line-through",
-                      color: "#8f8f8f",
-                    }}
-                  >
-                    {"\u20B9"} {1389}
-                  </Typography>
+                 
                   <Typography
                     variant=""
                     sx={{ fontWeight: "600", color: "white" }}
@@ -391,6 +383,7 @@ variant="solid"
           }}
         >
           {Test_Grandtotal == 0 ? (
+            <Link to="/care/diagnostic-tests" style={{textDecoration:"none"}}>
             <Button
               sx={{
                 backgroundColor: "white",
@@ -403,7 +396,7 @@ variant="solid"
               }}
             >
               BOOK TEST ON CARE.FIT
-            </Button>
+            </Button></Link>
           ) : (
             <Button
               sx={{

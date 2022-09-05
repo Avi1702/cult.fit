@@ -4,15 +4,19 @@ import { Loginmodal } from "./LoginModal";
 import { Signupmodal } from "./Signupmodal";
 import AddShoppingCartIcon from "@mui/icons-material/AddShoppingCart";
 import AccountCircleOutlinedIcon from "@mui/icons-material/AccountCircleOutlined";
+import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 import { useSelector } from "react-redux";
-import { Button } from "@mui/material";
+import { Box, Button } from "@mui/material";
 import { useState } from "react";
 import { CartModel } from "./CartModal";
+import FiberManualRecordRoundedIcon from '@mui/icons-material/FiberManualRecordRounded';
 
 export const Navbar = () => {
   const { token } = useSelector((state) => state.login);
   const [open,setOpen]=useState(false);
   let tok = window.localStorage.getItem("culttoken");
+  const { test} = useSelector((state) => state.tests);
+  
   return (
     <div style={{position:"relative"}}>
       <div
@@ -149,19 +153,24 @@ export const Navbar = () => {
                   sx={{
                     color: "white",
                     fontSize: "30px",
-                    marginRight: "25px",
+                    marginRight: "20px",
                   }}
                 />
               </NavLink>
-           
+
+              <Box variant="div" sx={{position:"relative"}}>
                 <AddShoppingCartIcon
-                  sx={{
-                    color: "white",
-                    fontSize: "30px",
-                    cursor:"pointer"
+                   sx={{
+                  color: "white",
+                  fontSize: "30px",
+                  cursor:"pointer"
                   }}
                   onClick={()=>setOpen(!open)}
+
                 />
+            
+              </Box>
+           
 
               
             </>

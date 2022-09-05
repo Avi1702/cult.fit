@@ -17,10 +17,14 @@ import { Questions } from "../components/Questions";
 import { useState } from "react";
 // import { AddPeopleModel } from "../components/AddPeopleModel";
 import { PersonalDetailsModel } from "../components/PersonalDetailsModel";
+import { useEffect } from "react";
 
 export const TestDetailsPage = () => {
   const testData = JSON.parse(localStorage.getItem("labTest"));
   const [openPModel,setOpenPModel]=useState(false);
+  useEffect(()=>{
+    window.scrollTo(0,0);
+  },[])
  
   return (
     <Box variant="div">

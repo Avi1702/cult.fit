@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import{ Footer} from "../components/Footer"
 import cult1 from "../images/cult2.0.png"
 import cult2 from "../images/cult2.png"
 import cult3 from "../images/cult3.png"
@@ -179,8 +180,7 @@ export const Home = () => {
       <div><img className='thumbnail' src={cult5}></img></div>
     </div>
     <div className='last_slide'><img src={cult6}></img></div>
-    <div className='final_slide'><img src={cult7}></img></div>
-
+    <Footer/>
   </div>
   )
 }

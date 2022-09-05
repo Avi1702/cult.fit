@@ -1,7 +1,8 @@
 .trial_main{
     color: white;
     text-align: center;
-    margin-top: 150px;
+    margin-top: 200px;
+    padding: 0px 200px;
 }
 body{
    overflow-x: hidden;
@@ -9,5 +10,5 @@ body{
 
 .trial_flex{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }

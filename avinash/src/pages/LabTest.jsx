@@ -36,7 +36,7 @@ export const LabTest = () => {
       backgroundColor:"white"
     }}>
       {loading ? (
-        <div style={{width:"100%", textAlign:"center"}}>
+        <div style={{width:"100%", textAlign:"center",height:"700px"}}>
           <img
           src={loadingimage}
           alt="loading"

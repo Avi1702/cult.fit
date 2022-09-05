@@ -47,7 +47,7 @@ const Fitness = () => {
               <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_540,ar_1.77,c_fit/dpr_2/image/diy/b9d18552-d333-4efa-af24-91d6da55f338" alt="" />
               <div className='near_info'>
                 <div>
-                    <h1>CUIT LOKHANDWALA</h1>
+                    <h1>CULT LOKHANDWALA</h1>
                     <p>lokhandawala Group Classs</p>
                 </div>
                 <h3>TRY FOR FREE</h3>
@@ -207,7 +207,7 @@ const Fitness = () => {
 
     {/* <SliderTime/> */}
 
-        <img src={pricetable} alt="" />
+        <img src={pricetable} alt="" style={{width:'100%'}} />
        
 
         <img className='banner2' src="https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_1440,ar_1738:763/dpr_2/image/vm/a5077452-0ba1-469f-a9ab-3eb6429de7c2.png" alt="" />
