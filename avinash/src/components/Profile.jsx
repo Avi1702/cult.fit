@@ -53,7 +53,7 @@ export const Profile = () => {
         return <Navigate to="/" /> 
       }
   return (
-<div style={{display:"flex",backgroundColor:"#fff"}}>
+<div style={{display:"flex",backgroundColor:"#fff",paddingTop:"60px"}}>
     <div style={{width:"25vw",borderRight:"2px solid silver",height:"100vh"}}>
     <div style={{width:"100%",height:"15vh",display:"flex"}}>
     <PersonOutlineOutlinedIcon
