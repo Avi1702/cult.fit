@@ -34,6 +34,7 @@ const style = {
 };
 
 export const CartModel = ({ open, setOpen }) => {
+  
   const { cart, grandtotal } = useSelector((state) => state.cart);
   const { test, Test_Grandtotal } = useSelector((state) => state.tests);
   let sum = grandtotal + Test_Grandtotal;
@@ -398,7 +399,8 @@ variant="solid"
               BOOK TEST ON CARE.FIT
             </Button></Link>
           ) : (
-            <Button
+          <>
+            {/* <Button
               sx={{
                 backgroundColor: "white",
                 color: "rgb(240,96,85)",
@@ -409,7 +411,13 @@ variant="solid"
               }}
             >
               TOTAL {"\u20B9"} {Test_Grandtotal} PROCEED
-            </Button>
+            </Button> */}
+          
+            <Payment
+            data={Test_Grandtotal}
+            />
+  
+          </>
           )}
         </Box>
       </Box>

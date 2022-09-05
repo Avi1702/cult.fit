@@ -7,7 +7,7 @@ import { Navbar } from './components/Navbar';
 // import Fitness from './pages/Fitness/Fitness.jsx';
 import { Pages } from './pages/Pages';
 import {Footer} from './components/Footer'
-// import Fintess from './pages/Fitness/Fitness';
+
 
 function App() {
   
