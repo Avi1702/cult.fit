@@ -118,7 +118,7 @@ export const Cart = () => {
 
   return (
   <div>
-  <div style={{color:"white",textAlign:"center", width:"100%",backgroundColor:"black",padding:"10px",marginTop:"60px",display:"flex",overflow:"auto"}}>
+  <div style={{color:"white",textAlign:"center", width:"100%",backgroundColor:"black",padding:"10px",marginTop:"0px",display:"flex",overflow:"auto", paddingTop:"80px"}}>
     <p style={{width:"50%",marginTop:"0px",marginBottom:"0px"}}>PRODUCTS</p>
     <p style={{width:"50%",marginTop:"0px",marginBottom:"0px"}}>LAB TESTS</p>
   </div>
