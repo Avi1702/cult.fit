@@ -31,11 +31,13 @@ export const Navbar = () => {
           zIndex:"2",
         }}
       >
+        <NavLink to="/">
         <img
           style={{ height: "30px", width: "120px" }}
           alt=""
           src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_120,ar_3.87,q_auto:eco,dpr_1.25,f_auto,fl_progressive//image/test/brand-logo/vman-and-white-cult-text.png"
         />
+        </NavLink>
         <div
           style={{
             width: "fitContent",

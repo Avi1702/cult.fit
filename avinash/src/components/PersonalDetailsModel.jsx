@@ -64,6 +64,7 @@ export const PersonalDetailsModel = ({ open, setOpen, price, test_name, test_ima
       },
      }).then((res) => {
         alert(res.data.message);
+        setOpen(!open);
         //localStorage.setItem("cultuser", JSON.stringify(res.data));
       })
       .catch((err) => {
