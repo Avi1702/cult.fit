@@ -5,6 +5,7 @@ import CloseIcon from '@mui/icons-material/Close';
 import { useDispatch, useSelector } from 'react-redux';
 import axios from 'axios';
 import SubscriptionsOutlinedIcon from '@mui/icons-material/SubscriptionsOutlined';
+import PersonOutlineIcon from '@mui/icons-material/PersonOutline';
 import {signupToDoError, signupToDoLoading, signupToDoSuccess, verifyToDoError, verifyToDoLoading, verifyToDoSuccess } from '../store/actions';
 
 
@@ -135,14 +136,18 @@ data: {
 }
   return (
     <div>
-    <SubscriptionsOutlinedIcon
-    onClick={openModal}
-    sx={{
-        color:"white",
-        fontSize:"30px",
-        marginRight:'25px'
-    }}
-    />
+      <PersonOutlineIcon
+      onClick={openModal}
+      sx={{
+          color:"white",
+          fontSize:"30px",
+          marginRight:'25px',
+          cursor:"pointer"
+      }}
+      />
+    {/* <SubscriptionsOutlinedIcon
+    
+    /> */}
     <Modal
       isOpen={modalIsOpen}
       onAfterOpen={afterOpenModal}

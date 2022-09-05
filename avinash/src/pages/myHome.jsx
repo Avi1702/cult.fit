@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import{ Footer} from "../components/Footer"
 import cult1 from "../images/cult2.0.png"
 import cult2 from "../images/cult2.png"
@@ -11,6 +11,10 @@ import '../styles/myHome.css'
 
 
 export const Home = () => {
+
+  useEffect(()=>{
+    window.scrollTo(0,0);
+  },[])
   return (
     <div id='main' style={{width:"100%"}}>
 

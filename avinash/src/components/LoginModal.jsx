@@ -90,7 +90,8 @@ export const Loginmodal = () => {
     sx={{
       color:"white",
       color:"white",
-      fontSize:"30px"
+      fontSize:"30px",
+      cursor:"pointer"
     }}
     />
     <Modal
