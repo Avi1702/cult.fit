@@ -1,4 +1,4 @@
-body { margin:50px auto; width:600px;}
+/* body { margin:50px auto; width:600px;} */
 
 /* CSS for Credit Card Payment form */
 .credit-card-box .panel-title {
@@ -35,7 +35,7 @@ body { margin:50px auto; width:600px;}
 .credit-card-box .display-td {
     display: table-cell;
     vertical-align: middle;
-    width: 50%;
+    width: 100%;
 }
 /* Just looks nicer */
 .credit-card-box .panel-heading img {
