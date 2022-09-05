@@ -3,10 +3,11 @@ import Box from "@mui/material/Box";
 import { Avatar, Button, Divider, Typography } from "@mui/material";
 import ControlPointRoundedIcon from "@mui/icons-material/ControlPointRounded";
 import ClearRoundedIcon from "@mui/icons-material/ClearRounded";
-import { PersonalDetailsModel } from "./PersonalDetailsModel";
+// import { PersonalDetailsModel } from "./PersonalDetailsModel";
 import { useEffect } from "react";
 import axios from "axios";
-import { useState } from "react";
+// import { Button } from '@mui/material';
+// import { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import {
   getcartDoError,
@@ -22,8 +23,8 @@ const style = {
   position: "fixed",
   top: "65px",
   right: "0.5%",
-  width: 350,
-  height: "500px",
+  width: "30vw",
+  height: "78vh",
   padding: "10px",
   backgroundColor: "rgb(23,26,38)",
   boxShadow: 24,
@@ -176,6 +177,71 @@ export const CartModel = ({ open, setOpen }) => {
             Lab Tests
           </Typography>
         </Box>
+  
+        {/* {test.map((el)=>{return<>
+    <div style={{border:"1px solid silver",
+    cursor:"pointer",
+    width:"85%",
+    marginLeft:"auto",
+    marginRight:"auto",
+    marginTop:"10px",
+    color:"white",
+    display:"flex",
+    padding:".5vw"
+    }}>
+      <div
+      style={{height:"103px"}}>
+        <img 
+        style={{height:"100%",aspectRatio:"4/5"}}
+        alt=''
+        src={el.test_image}
+        />
+      </div>
+      <div style={{paddingLeft:"0.5vw",marginTop:"0px",width:"100%"}}>
+        <p style={{marginTop:"0px",marginBottom:"0px"}}>{el.test_name}</p>
+        <p style={{marginTop:"0px",marginBottom:"0px"}}>For: {el.patient_name}</p>
+        <p style={{marginTop:"0px",marginBottom:"0px"}}>Date: {el.schedule_date}</p>
+        <p style={{marginTop:"0px",marginBottom:"0px"}}>Price: ₹{el.price}</p>
+        <div style={{paddingLeft:"0",marginTop:"0px",marginBottom:"0px",display:"flex",width:"100%"}}>
+        <Button 
+        sx={{
+          color:"white",
+          height:"2vw",
+          border:"1px solid silver",
+          fontSize:"1vw",
+          marginLeft:"auto",
+          marginRight:"0px",
+          '&:hover':{
+            color:"white"
+          }
+        }}
+        variant="solid"
+        onClick={() => {
+          testRemove(el.test_name, el.patient_name);
+        }}
+        >Remove</Button>
+        </div>
+      </div>
+    </div>
+        </>
+    })}
+<div style={{borderTop:"1px solid silver",padding:"10px",textAlign:"center",marginLeft:"auto",marginRight:"auto",marginTop:"10px",color:"white"}}>
+<p>Grand Total: ₹{sum}</p>
+<Button
+sx={{
+  color:"white",
+  height:"2vw",
+  border:"1px solid silver",
+  fontSize:"1vw",
+  marginRight:"0px",
+  marginLeft:"auto",
+  '&:hover':{
+    color:"white"
+  }
+}}
+variant="solid"
+>Checkout</Button> */}
+{/* </div> */}
 
         <Box
           variant="div"
