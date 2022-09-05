@@ -70,8 +70,9 @@ export const PersonalDetailsModel = ({ open, setOpen, price, test_name, test_ima
         //localStorage.setItem("cultuser", JSON.stringify(res.data));
       })
       .catch((err) => {
-        console.log(err.response.data.message)
-        alert(err.response.data.message);
+        // console.log(err.response.data)
+        alert(err.response.data);
+
         // dispatch(getloginToDoError());
       });
 

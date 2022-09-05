@@ -19,6 +19,7 @@ import {
 } from "../store/actions";
 import PermIdentityRoundedIcon from "@mui/icons-material/PermIdentityRounded";
 import { Link } from "react-router-dom";
+import Payment from "../pages/Payment";
 
 const style = {
   position: "fixed",
