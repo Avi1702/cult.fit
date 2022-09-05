@@ -1,6 +1,6 @@
 import * as React from "react";
 import Box from "@mui/material/Box";
-import { Avatar, Typography } from "@mui/material";
+import { Avatar, Button, Divider, Typography } from "@mui/material";
 import ControlPointRoundedIcon from "@mui/icons-material/ControlPointRounded";
 import ClearRoundedIcon from "@mui/icons-material/ClearRounded";
 import { PersonalDetailsModel } from "./PersonalDetailsModel";
@@ -29,7 +29,6 @@ const style = {
   boxShadow: 24,
   zIndex: "3",
   color: "white",
-  overflowY:"scroll"
 };
 
 export const CartModel = ({ open, setOpen }) => {
@@ -142,6 +141,7 @@ export const CartModel = ({ open, setOpen }) => {
     getCart();
     getTests();
   }, []);
+  console.log(Test_Grandtotal);
 
   return (
     <div>
@@ -157,7 +157,7 @@ export const CartModel = ({ open, setOpen }) => {
             Your Cart
           </Typography>
           <ClearRoundedIcon
-            onClick={() => setOpen(!open)}
+            onClick={() => {setOpen(!open)}}
             sx={{ cursor: "pointer" }}
           />
         </Box>
@@ -178,116 +178,181 @@ export const CartModel = ({ open, setOpen }) => {
         </Box>
 
         <Box
-          sx={{
-            width: "90%",
-            border: "1px solid rgb(106,106,106)",
-            padding: "8px",
-            margin: "auto",
-            marginTop: "20px",
-            borderRadius: "10px",
-            display: "flex",
-            justifyContent: "space-between",
-            alignItems: "center",
-          }}
+          variant="div"
+          sx={{ overflowY: "auto", height: "360px", paddingRight: "5px" }}
         >
-          <Box sx={{ display: "flex", alignItems: "center", gap: "10px" }}>
-            <PermIdentityRoundedIcon
-              sx={{
-                borderRadius: "30px",
-                border: "1px solid rgb(106,106,106)",
-                color: "rgb(106,106,106)",
-                padding: "5px",
-                fontSize: "15px",
-              }}
-            />
-            <Typography
-              variant="h7"
-              component="h5"
-              sx={{ fontWeight: "500", letterSpacing: "1px", fontSize: "14px" }}
-            >
-              Swapnil Meshram
-            </Typography>
-          </Box>
+          {test.map((el) => (
+            <Box variant="div">
+              <Box
+                sx={{
+                  width: "90%",
+                  border: "1px solid rgb(106,106,106)",
+                  padding: "8px",
+                  margin: "auto",
+                  marginTop: "20px",
+                  borderRadius: "10px",
+                  display: "flex",
+                  justifyContent: "space-between",
+                  alignItems: "center",
+                }}
+              >
+                <Box
+                  sx={{ display: "flex", alignItems: "center", gap: "10px" }}
+                >
+                  <PermIdentityRoundedIcon
+                    sx={{
+                      borderRadius: "30px",
+                      border: "1px solid rgb(106,106,106)",
+                      color: "rgb(106,106,106)",
+                      padding: "5px",
+                      fontSize: "15px",
+                    }}
+                  />
+                  <Typography
+                    variant="h7"
+                    component="h5"
+                    sx={{
+                      fontWeight: "500",
+                      letterSpacing: "1px",
+                      fontSize: "14px",
+                    }}
+                  >
+                    {el.patient_name}
+                  </Typography>
+                </Box>
 
-          <Typography
-            variant="div"
-            sx={{
-              fontSize: "13px",
-              marginRight: "10px",
-              letterSpacing: "1px",
-              color: "#696a6e",
-            }}
-          >
-            Male
-          </Typography>
+                <Typography
+                  variant="div"
+                  sx={{
+                    fontSize: "13px",
+                    marginRight: "10px",
+                    letterSpacing: "1px",
+                    color: "#696a6e",
+                  }}
+                >
+                  {el.gender}
+                </Typography>
+              </Box>
+
+              <Box
+                sx={{
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "space-between",
+                }}
+              >
+                <Typography
+                  variant="h7"
+                  component="h5"
+                  sx={{
+                    fontWeight: "500",
+                    fontSize: "14px",
+                    letterSpacing: "1px",
+                    width: "70%",
+                    padding: "20px",
+                  }}
+                >
+                  Vitamin Screening (VitB12,VitD)
+                </Typography>
+                <ClearRoundedIcon
+                  onClick={() => {testRemove(el.test_name, el.patient_name);}}
+                  sx={{
+                    cursor: "pointer",
+                    marginRight: "10px",
+                    fontSize: "20px",
+                  }}
+                />
+              </Box>
+              <Box
+                variant="div"
+                sx={{
+                  display: "flex",
+                  justifyContent: "space-between",
+                  padding: "5px 18px",
+                }}
+              >
+                <Typography
+                  variant="span"
+                  sx={{
+                    fontWeight: "500",
+
+                    color: "#8f8f8f",
+                  }}
+                >
+                  1 Tests
+                </Typography>
+                <Box
+                  variant="span"
+                  sx={{
+                    display: "flex",
+                    fontSize: "15px",
+                    gap: "10px",
+                  }}
+                >
+                  <Typography
+                    variant="span"
+                    sx={{
+                      fontWeight: "500",
+                      textDecoration: "line-through",
+                      color: "#8f8f8f",
+                    }}
+                  >
+                    {"\u20B9"} {1389}
+                  </Typography>
+                  <Typography
+                    variant=""
+                    sx={{ fontWeight: "600", color: "white" }}
+                  >
+                    {"\u20B9"} {el.price}
+                  </Typography>
+                </Box>
+              </Box>
+
+              <Divider
+                sx={{ border: "1px solid #696a6e", margin: "10px 0px" }}
+              />
+            </Box>
+          ))}
         </Box>
 
         <Box
           sx={{
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "space-between",
+            color: "rgb(240,96,85)",
+            textAlign: "center",
+            position: "absolute",
+            width: "97%",
+            bottom: "15px",
           }}
         >
-          <Typography
-            variant="h7"
-            component="h5"
-            sx={{
-              fontWeight: "500",
-              fontSize: "14px",
-              letterSpacing: "1px",
-              width: "70%",
-              padding: "20px",
-            }}
-          >
-            Vitamin Screening (VitB12,VitD)
-          </Typography>
-          <ClearRoundedIcon
-            onClick={() => setOpen(!open)}
-            sx={{ cursor: "pointer", marginRight: "10px", fontSize: "20px" }}
-          />
-        </Box>
-
-        <Box variant="div" sx={{display:"flex", justifyContent:"space-between", padding:"5px 18px"}}>
-            <Typography
-                variant="span"
-                sx={{
-                fontWeight: "500",
-                
-                color: "#8f8f8f",
-                }}
-            >
-                1 Tests
-            </Typography>
-            <Box
-            variant="span"
-            sx={{
-              display: "flex",
-              fontSize: "15px",
-              gap: "10px",
-            }}
-          >
-            <Typography
-              variant="span"
+          {Test_Grandtotal == 0 ? (
+            <Button
               sx={{
-                fontWeight: "500",
-                textDecoration: "line-through",
-                color: "#8f8f8f",
+                backgroundColor: "white",
+                color: "rgb(240,96,85)",
+                fontSize: "15px",
+                fontWeight: "700",
+                width: "90%",
+                marginBottom:"200px",
+                "&:hover": { backgroundColor: "white", color: "black" },
               }}
             >
-              {"\u20B9"} {1389}
-            </Typography>
-            <Typography
-              variant=""
-              sx={{ fontWeight: "600", color: "white" }}
+              BOOK TEST ON CARE.FIT
+            </Button>
+          ) : (
+            <Button
+              sx={{
+                backgroundColor: "white",
+                color: "rgb(240,96,85)",
+                fontSize: "15px",
+                fontWeight: "700",
+                width: "90%",
+                "&:hover": { backgroundColor: "white", color: "black" },
+              }}
             >
-              {"\u20B9"} {799}
-            </Typography>
-          </Box>
+              TOTAL {"\u20B9"} {Test_Grandtotal} PROCEED
+            </Button>
+          )}
         </Box>
-       
-
-     
       </Box>
     </div>
   );
