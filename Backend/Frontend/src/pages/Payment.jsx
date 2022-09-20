@@ -31,7 +31,7 @@ const Payment = ({ data }) => {
   let handlepay = () => {
     axios({
       method: "post",
-      url: "http://localhost:7000/checkout",
+      url: "/checkout",
       headers: {
         authtoken: token,
       },

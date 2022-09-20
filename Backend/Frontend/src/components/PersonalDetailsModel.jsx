@@ -49,7 +49,7 @@ export const PersonalDetailsModel = ({ open, setOpen, price, test_name, test_ima
   const handleSave=()=>{
     axios({
       method:'POST',
-      url:'http://localhost:7000/addtest',
+      url:'/addtest',
       data:{
         patient_name:name,
         date_of_birth:bDate,

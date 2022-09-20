@@ -25,7 +25,7 @@ export const LabTest = () => {
     dispatch(loadingLabTest());
     axios({
       method: "get",
-      url: "http://localhost:7000/labTest",
+      url: "/labTest",
     })
       .then((res) => dispatch(getLabTest(res.data)))
       .catch((error) => dispatch(ErrorLabTest()));

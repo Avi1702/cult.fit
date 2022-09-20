@@ -24,7 +24,7 @@ export const Profile = () => {
       dispatch(getloginToDoLoading());
     axios({
     method: "get",
-    url: "http://localhost:7000/loggeduser",
+    url: "/loggeduser",
     headers: {
       authtoken:token,
     },

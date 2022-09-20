@@ -6,11 +6,14 @@ const { sendEmail } = require("../helpers/sendEmail");
 
 const SECRET_KEY = "tgbvhfruyshdhdvsfdfevdsvsds";
 let otp=crypto.randomInt(10000,99999);
+
 async function register(req, res) {
   let mobile_number = req.body.mobile_number;
   let name = req.body.name;
   let password = req.body.password;
   let email=req.body.email;
+
+  console.log(name,email)
 
 //   password= bcrypt.hashSync(password, 20);
 
@@ -36,7 +39,7 @@ async function register(req, res) {
     tests:[
     ]
   });
-//send a verification email
+// send a verification email
 sendEmail({
     email,
     subject:"Verify Email Address",
