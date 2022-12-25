@@ -96,7 +96,7 @@ export const Signupmodal = () => {
   dispatch(signupToDoLoading());
   axios({
   method: "post",
-  url: "/register",
+  url: "https://cult-fit-two.vercel.app/register",
   data: {
     name:name,
     email:email,
