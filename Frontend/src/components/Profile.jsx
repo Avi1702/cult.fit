@@ -24,7 +24,7 @@ export const Profile = () => {
       dispatch(getloginToDoLoading());
     axios({
     method: "get",
-    url: "/loggeduser",
+    url: "https://cult-fit-two.vercel.app/loggeduser",
     headers: {
       authtoken:token,
     },

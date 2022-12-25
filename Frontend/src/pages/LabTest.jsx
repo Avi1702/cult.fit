@@ -25,7 +25,7 @@ export const LabTest = () => {
     dispatch(loadingLabTest());
     axios({
       method: "get",
-      url: "/labTest",
+      url: "https://cult-fit-two.vercel.app/labTest",
     })
       .then((res) => dispatch(getLabTest(res.data)))
       .catch((error) => dispatch(ErrorLabTest()));

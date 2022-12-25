@@ -17,7 +17,7 @@ export const Cart = () => {
       dispatch(getcartLoading());
     axios({
     method: "get",
-    url: "/cart",
+    url: "https://cult-fit-two.vercel.app/cart",
     headers: {
       authtoken:token,
     },
@@ -32,7 +32,7 @@ export const Cart = () => {
       dispatch(gettestLoading());
     axios({
     method: "get",
-    url: "/gettest",
+    url: "https://cult-fit-two.vercel.app/gettest",
     headers: {
       authtoken:token,
     },
@@ -46,7 +46,7 @@ export const Cart = () => {
     let handleIncrement = (a,b) => {
       axios({
               method: "post",
-              url: "/updatequantity",
+              url: "https://cult-fit-two.vercel.app/updatequantity",
               data: {
                 product_name:b,
                 quantity: a+1
@@ -64,7 +64,7 @@ export const Cart = () => {
        let handleDecrement = (a,b) => {
         axios({
                 method: "post",
-                url: "/updatequantity",
+                url: "https://cult-fit-two.vercel.app/updatequantity",
                 data: {
                   product_name:b,
                   quantity: a-1
@@ -81,7 +81,7 @@ export const Cart = () => {
          let handleRemove = (a) => {
           axios({
                   method: "delete",
-                  url: "/removefromcart",
+                  url: "https://cult-fit-two.vercel.app/removefromcart",
                   data: {
                     product_name:a
                   },
@@ -97,7 +97,7 @@ export const Cart = () => {
         let testRemove = (a,b) => {
           axios({
                   method: "delete",
-                  url: "/removetest",
+                  url: "https://cult-fit-two.vercel.app/removetest",
                   data: {
                     test_name:a,
                     patient_name:b

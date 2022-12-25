@@ -45,7 +45,7 @@ export const CartModel = ({ open, setOpen }) => {
     dispatch(getcartLoading());
     axios({
       method: "get",
-      url: "/cart",
+      url: "https://cult-fit-two.vercel.app/cart",
       headers: {
         authtoken: token,
       },
@@ -61,7 +61,7 @@ export const CartModel = ({ open, setOpen }) => {
     dispatch(gettestLoading());
     axios({
       method: "get",
-      url: "/gettest",
+      url: "https://cult-fit-two.vercel.app/gettest",
       headers: {
         authtoken: token,
       },
@@ -76,7 +76,7 @@ export const CartModel = ({ open, setOpen }) => {
   let handleIncrement = (a, b) => {
     axios({
       method: "post",
-      url: "/updatequantity",
+      url: "https://cult-fit-two.vercel.app/updatequantity",
       data: {
         product_name: b,
         quantity: a + 1,
@@ -94,7 +94,7 @@ export const CartModel = ({ open, setOpen }) => {
   let handleDecrement = (a, b) => {
     axios({
       method: "post",
-      url: "/updatequantity",
+      url: "https://cult-fit-two.vercel.app/updatequantity",
       data: {
         product_name: b,
         quantity: a - 1,
@@ -111,7 +111,7 @@ export const CartModel = ({ open, setOpen }) => {
   let handleRemove = (a) => {
     axios({
       method: "delete",
-      url: "/removefromcart",
+      url: "https://cult-fit-two.vercel.app/removefromcart",
       data: {
         product_name: a,
       },
@@ -127,7 +127,7 @@ export const CartModel = ({ open, setOpen }) => {
   let testRemove = (a, b) => {
     axios({
       method: "delete",
-      url: "/removetest",
+      url: "https://cult-fit-two.vercel.app/removetest",
       data: {
         test_name: a,
         patient_name: b,
@@ -385,7 +385,7 @@ variant="solid"
           }}
         >
           {Test_Grandtotal == 0 ? (
-            <Link to="/care/diagnostic-tests" style={{textDecoration:"none"}}>
+            <Link to="https://cult-fit-two.vercel.app/care/diagnostic-tests" style={{textDecoration:"none"}}>
             <Button
               sx={{
                 backgroundColor: "white",

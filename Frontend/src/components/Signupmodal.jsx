@@ -119,7 +119,7 @@ let handleVerify=()=>{
   dispatch(verifyToDoLoading());
 axios({
 method: "post",
-url: "http://localhost:7000/verify",
+url: "https://cult-fit-two.vercel.app/verify",
 data: {
   email:email,
   OTP:otp,

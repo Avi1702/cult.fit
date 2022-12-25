@@ -66,7 +66,7 @@ export const Loginmodal = () => {
     dispatch(loginToDoLoading());
   axios({
   method: "post",
-  url: "/login",
+  url: "https://cult-fit-two.vercel.app/login",
   data: {
     email:email,
     password:password

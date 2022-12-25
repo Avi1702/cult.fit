@@ -21,6 +21,7 @@ const LabTest=model('labTest',LabTestSchema)
 labTest.get('/',async(req,res)=>{
     try {
         const labTestData=await LabTest.find();
+        console.log(labTestData)
      return res.send(labTestData)   
     } catch (error) {
        console.log(error) 

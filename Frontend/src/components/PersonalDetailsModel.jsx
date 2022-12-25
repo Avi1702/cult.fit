@@ -49,7 +49,7 @@ export const PersonalDetailsModel = ({ open, setOpen, price, test_name, test_ima
   const handleSave=()=>{
     axios({
       method:'POST',
-      url:'/addtest',
+      url:'https://cult-fit-two.vercel.app/addtest',
       data:{
         patient_name:name,
         date_of_birth:bDate,
