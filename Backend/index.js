@@ -3,6 +3,11 @@ const cors = require('cors');
 const app = express();
 const port = process.env.PORT||7000;
 
+// const express = require("express");
+// const app = express();
+// const PORT = 3070;
+// const cors = require("cors");
+
 const connectDb = require("./database/index");
 const { register, login, loggedinuser, veriFy } = require('./auth/auth');
 const { Verify } = require('crypto');

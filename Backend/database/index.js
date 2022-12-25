@@ -4,8 +4,8 @@ async function connectDb() {
     return new Promise((resolve, reject) => {
         //   useNewUrlParser:true,
         // const url = "mongodb+srv://utsavkatiyar34:Utsav123%4047@cluster0.ukyjn.mongodb.net/cultfit?retryWrites=true&w=majority";
-        // const url ="mongodb+srv://Avinash:cultfit%401702@cluster0.2gph224.mongodb.net/cultfit?retryWrites=true&w=majority"
-        const url=process.env.DATABASE
+        const url ="mongodb+srv://Avinash:cultfit%401702@cluster0.2gph224.mongodb.net/cultfit?retryWrites=true&w=majority"
+        // const url=process.env.DATABASE
 
         mongoose.connect(url, (err) => {
            
